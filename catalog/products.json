@@ -1,0 +1,683 @@
+{
+  "products": [
+    {
+      "handle": "classic-crew-tee",
+      "sku": "ESD-TEE",
+      "name": "Classic Crew T-Shirt",
+      "type": "variable",
+      "vendor": "Larkspur Lane",
+      "category": "Clothing > T-shirts",
+      "tags": ["cotton", "basics", "unisex"],
+      "featured": true,
+      "small": true,
+      "short_description": "A soft, midweight cotton tee with a classic crew neck and a relaxed fit.",
+      "description": "<p>The everyday tee, done right. Cut from 180 gsm combed cotton that gets softer with every wash, with a ribbed collar that keeps its shape.</p><ul><li>100% combed cotton, 180 gsm</li><li>Relaxed, unisex fit</li><li>Pre-shrunk</li><li>Machine wash cold</li></ul>",
+      "price": "24.00",
+      "weight_kg": 0.18,
+      "dimensions_cm": [30, 25, 2],
+      "attributes": [{ "name": "Fabric", "values": ["100% cotton"] }],
+      "options": [
+        { "name": "Color", "values": ["Black", "White", "Navy", "Heather Grey", "Forest Green"] },
+        { "name": "Size", "values": ["XS", "S", "M", "L", "XL"] }
+      ],
+      "image_option": "Color",
+      "defaults": { "Color": "Black", "Size": "M" },
+      "variant_rules": [
+        { "when": { "Size": "XL" }, "price": "26.00" },
+        { "when": { "Color": "Forest Green" }, "sale_price": "19.00" },
+        { "when": { "Color": "White", "Size": "XS" }, "stock": 0 }
+      ],
+      "upsells": ["everyday-hoodie"],
+      "cross_sells": ["ribbed-beanie"],
+      "photos": [
+        { "id": "black", "prompt": "A plain black crew-neck cotton t-shirt laid flat, front view, short sleeves slightly spread, natural soft fabric folds" },
+        { "id": "white", "edit_of": "black", "change": "Change the t-shirt color to bright white." },
+        { "id": "navy", "edit_of": "black", "change": "Change the t-shirt color to deep navy blue." },
+        { "id": "heather-grey", "edit_of": "black", "change": "Change the t-shirt color to light heather grey marl." },
+        { "id": "forest-green", "edit_of": "black", "change": "Change the t-shirt color to dark forest green." }
+      ],
+      "notes": ["2 options (Color x Size), 25 variations", "Image per color", "Higher price for one size (XL)", "Variations on sale (Forest Green)", "Out-of-stock variation (White / XS)", "Default variation (Black / M)", "Non-variation attribute (Fabric)", "Upsell and cross-sell"]
+    },
+    {
+      "handle": "everyday-hoodie",
+      "sku": "ESD-HOOD",
+      "name": "Everyday Pullover Hoodie",
+      "type": "variable",
+      "vendor": "Larkspur Lane",
+      "category": "Clothing > Hoodies",
+      "tags": ["fleece", "layering", "unisex"],
+      "short_description": "A brushed-fleece pullover hoodie with a lined hood and a roomy kangaroo pocket.",
+      "description": "<p>Heavyweight comfort without the bulk. The inside is brushed for warmth, the outside is smooth and resists pilling, and the double-lined hood holds its shape.</p><ul><li>80% cotton, 20% recycled polyester</li><li>Kangaroo pocket</li><li>Ribbed cuffs and hem</li></ul>",
+      "price": "58.00",
+      "weight_kg": 0.62,
+      "dimensions_cm": [35, 30, 6],
+      "options": [
+        { "name": "Color", "values": ["Charcoal", "Oatmeal", "Dusty Rose"] },
+        { "name": "Size", "values": ["S", "M", "L", "XL"] }
+      ],
+      "image_option": "Color",
+      "photos": [
+        { "id": "charcoal", "prompt": "A charcoal grey pullover hoodie with a kangaroo pocket and drawstrings, laid flat, front view, hood visible above the collar" },
+        { "id": "oatmeal", "edit_of": "charcoal", "change": "Change the hoodie color to light oatmeal beige." },
+        { "id": "dusty-rose", "edit_of": "charcoal", "change": "Change the hoodie color to muted dusty rose pink." }
+      ],
+      "notes": ["2 options (Color x Size), 12 variations", "Image per color"]
+    },
+    {
+      "handle": "ribbed-beanie",
+      "sku": "ESD-BEANIE",
+      "name": "Ribbed Knit Beanie",
+      "type": "variable",
+      "vendor": "Larkspur Lane",
+      "category": "Accessories > Hats",
+      "tags": ["knitwear", "winter"],
+      "short_description": "A chunky rib-knit beanie with a fold-over cuff.",
+      "description": "<p>Warm, stretchy and easy to wear. Fold the deep cuff once for a snug fit or twice for a shorter look.</p><ul><li>Soft acrylic and wool blend</li><li>One size fits most</li></ul>",
+      "price": "18.00",
+      "weight_kg": 0.09,
+      "dimensions_cm": [22, 20, 4],
+      "options": [{ "name": "Color", "values": ["Mustard", "Black", "Burgundy", "Sage"] }],
+      "image_option": "Color",
+      "photos": [
+        { "id": "mustard", "prompt": "A mustard yellow chunky rib-knit beanie with a folded cuff, standing upright, front view" },
+        { "id": "black", "edit_of": "mustard", "change": "Change the beanie color to black." },
+        { "id": "burgundy", "edit_of": "mustard", "change": "Change the beanie color to deep burgundy red." },
+        { "id": "sage", "edit_of": "mustard", "change": "Change the beanie color to soft sage green." }
+      ],
+      "notes": ["1 option (Color), 4 variations", "Image per color"]
+    },
+    {
+      "handle": "merino-crew-socks",
+      "sku": "ESD-SOCKS",
+      "name": "Merino Crew Socks (3-Pack)",
+      "type": "variable",
+      "vendor": "Larkspur Lane",
+      "category": "Clothing > Socks",
+      "tags": ["merino", "multipack"],
+      "short_description": "Three pairs of cushioned merino-blend crew socks.",
+      "description": "<p>Merino wool keeps feet warm in winter and dry in summer. These have a cushioned sole, a reinforced heel and toe, and a cuff that stays up without pinching.</p>",
+      "price": "22.00",
+      "weight_kg": 0.15,
+      "dimensions_cm": [20, 12, 4],
+      "attributes": [{ "name": "Fabric", "values": ["Merino wool blend"] }],
+      "options": [{ "name": "Size", "values": ["S/M", "L/XL"] }],
+      "photos": [
+        { "id": "main", "prompt": "Three pairs of folded crew socks in oatmeal, charcoal and navy, arranged neatly in a slight fan" }
+      ],
+      "notes": ["Variations without their own image", "Option value with a slash (S/M)"]
+    },
+    {
+      "handle": "linen-button-up-shirt",
+      "sku": "ESD-LINEN",
+      "name": "Linen Button-Up Shirt",
+      "type": "variable",
+      "vendor": "Larkspur Lane",
+      "category": "Clothing > Shirts",
+      "tags": ["linen", "summer"],
+      "short_description": "A breathable linen shirt with a relaxed cut and coconut-shell buttons.",
+      "description": "<p>Made for warm days. Washed linen feels soft and lived-in from the first wear, and the relaxed cut lets air move.</p><ul><li>100% washed linen</li><li>Coconut-shell buttons</li><li>Curved hem, wear it tucked or untucked</li></ul>",
+      "price": "64.00",
+      "weight_kg": 0.25,
+      "dimensions_cm": [32, 26, 3],
+      "options": [{ "name": "Size", "values": ["S", "M", "L", "XL"] }],
+      "photos": [
+        { "id": "main", "prompt": "A light blue washed linen button-up shirt with long sleeves, laid flat, front view, buttoned" },
+        { "id": "detail", "prompt": "Close-up detail of the collar and coconut-shell buttons of a light blue washed linen shirt", "alt": "Collar and button detail" }
+      ],
+      "notes": ["Size-only variations", "Gallery image (detail shot)"]
+    },
+    {
+      "handle": "trail-runner-sneaker",
+      "sku": "ESD-TRAIL",
+      "name": "Trail Runner Sneaker",
+      "type": "variable",
+      "vendor": "Fennick Outdoor",
+      "category": "Shoes > Sneakers",
+      "tags": ["running", "outdoor"],
+      "short_description": "A lightweight trail runner with a grippy lugged sole and a breathable mesh upper.",
+      "description": "<p>Built for mixed terrain. The lugged outsole grips dirt and gravel, the foam midsole stays springy on long runs, and the mesh upper dries quickly.</p><ul><li>Breathable engineered mesh</li><li>4 mm lugs</li><li>8 mm heel-to-toe drop</li></ul>",
+      "price": "89.00",
+      "weight_kg": 0.62,
+      "dimensions_cm": [33, 21, 12],
+      "options": [
+        { "name": "Color", "values": ["Slate Blue", "Black", "Coral"] },
+        { "name": "Shoe Size", "values": ["7", "8", "9", "10", "11", "12"] }
+      ],
+      "image_option": "Color",
+      "photos": [
+        { "id": "slate-blue", "prompt": "A single slate blue trail running sneaker with a chunky dark grey lugged sole, side profile view, toe pointing left" },
+        { "id": "black", "edit_of": "slate-blue", "change": "Change the color of the shoe's upper and laces to black. Keep the sole dark grey." },
+        { "id": "coral", "edit_of": "slate-blue", "change": "Change the color of the shoe's upper and laces to bright coral orange. Keep the sole dark grey." }
+      ],
+      "notes": ["2 options (Color x Shoe Size), 18 variations", "Numeric option values", "Multi-word attribute name (Shoe Size)"]
+    },
+    {
+      "handle": "slide-sandal",
+      "sku": "ESD-SLIDE",
+      "name": "Cushioned Slide Sandal",
+      "type": "variable",
+      "vendor": "Fennick Outdoor",
+      "category": "Shoes > Sandals",
+      "tags": ["summer", "beach"],
+      "short_description": "A cushioned one-strap slide with a contoured footbed.",
+      "description": "<p>The pool-to-patio sandal. A soft, contoured footbed supports the arch, and the textured sole grips wet surfaces.</p>",
+      "price": "32.00",
+      "weight_kg": 0.4,
+      "dimensions_cm": [30, 12, 8],
+      "options": [
+        { "name": "Color", "values": ["Sand", "Black"] },
+        { "name": "Shoe Size", "values": ["6-7", "8-9", "10-11"] }
+      ],
+      "image_option": "Color",
+      "photos": [
+        { "id": "sand", "prompt": "A single sand beige one-strap slide sandal with a thick contoured footbed, three-quarter view" },
+        { "id": "black", "edit_of": "sand", "change": "Change the sandal color to black." }
+      ],
+      "notes": ["Size ranges as option values (6-7)"]
+    },
+    {
+      "handle": "roll-top-backpack",
+      "sku": "ESD-ROLLTOP",
+      "name": "Roll-Top Backpack",
+      "type": "variable",
+      "vendor": "Tote & Trail",
+      "category": "Bags > Backpacks",
+      "tags": ["travel", "water-resistant"],
+      "featured": true,
+      "short_description": "A 20-litre roll-top backpack in water-resistant waxed canvas.",
+      "description": "<p>Roll the top down once for a day of errands, or three times for a downpour. A padded sleeve fits a 15-inch laptop, and side pockets hold a bottle and an umbrella.</p><ul><li>20 L capacity, expands to 24 L</li><li>Water-resistant waxed canvas</li><li>Padded 15-inch laptop sleeve</li></ul>",
+      "price": "79.00",
+      "weight_kg": 0.95,
+      "dimensions_cm": [45, 30, 14],
+      "options": [{ "name": "Color", "values": ["Olive", "Black", "Rust"] }],
+      "image_option": "Color",
+      "photos": [
+        { "id": "olive", "prompt": "An olive green waxed-canvas roll-top backpack with tan leather straps and buckles, standing upright, front view" },
+        { "id": "black", "edit_of": "olive", "change": "Change the backpack fabric color to black. Keep the leather straps tan." },
+        { "id": "rust", "edit_of": "olive", "change": "Change the backpack fabric color to burnt rust orange. Keep the leather straps tan." }
+      ],
+      "notes": ["Ampersand in vendor name (Tote & Trail)"]
+    },
+    {
+      "handle": "slim-leather-wallet",
+      "sku": "ESD-WALLET",
+      "name": "Slim Leather Wallet",
+      "type": "variable",
+      "vendor": "Tote & Trail",
+      "category": "Accessories > Wallets",
+      "tags": ["leather", "gift"],
+      "short_description": "A slim bifold wallet in vegetable-tanned leather.",
+      "description": "<p>Holds up to eight cards and folded notes without the bulge. Vegetable-tanned leather darkens and softens with use.</p>",
+      "price": "45.00",
+      "weight_kg": 0.06,
+      "dimensions_cm": [11, 9, 1],
+      "options": [{ "name": "Color", "values": ["Tan", "Espresso"] }],
+      "image_option": "Color",
+      "photos": [
+        { "id": "tan", "prompt": "A slim tan leather bifold wallet, closed, three-quarter view, visible stitching along the edges" },
+        { "id": "espresso", "edit_of": "tan", "change": "Change the leather color to dark espresso brown." }
+      ]
+    },
+    {
+      "handle": "round-sunglasses",
+      "sku": "ESD-SUNNIES",
+      "name": "Round Polarized Sunglasses",
+      "type": "variable",
+      "vendor": "Larkspur Lane",
+      "category": "Accessories > Sunglasses",
+      "tags": ["summer", "uv400"],
+      "short_description": "Round acetate sunglasses with polarized UV400 lenses.",
+      "description": "<p>A timeless round frame in hand-polished acetate, with polarized lenses that cut glare on the water and the road.</p><ul><li>UV400 protection</li><li>Polarized lenses</li><li>Includes a soft case</li></ul>",
+      "price": "39.00",
+      "weight_kg": 0.05,
+      "dimensions_cm": [15, 6, 5],
+      "options": [{ "name": "Frame Color", "values": ["Tortoise", "Matte Black", "Clear"] }],
+      "image_option": "Frame Color",
+      "photos": [
+        { "id": "tortoise", "prompt": "A pair of round tortoiseshell acetate sunglasses with dark lenses, front view, temples open" },
+        { "id": "matte-black", "edit_of": "tortoise", "change": "Change the frame to matte black. Keep the dark lenses." },
+        { "id": "clear", "edit_of": "tortoise", "change": "Change the frame to transparent clear acetate. Keep the dark lenses." }
+      ],
+      "notes": ["Images chosen by an option other than Color (Frame Color)"]
+    },
+    {
+      "handle": "canvas-tote-bag",
+      "sku": "ESD-TOTE",
+      "name": "Canvas Tote Bag",
+      "type": "simple",
+      "vendor": "Tote & Trail",
+      "category": "Bags > Totes",
+      "tags": ["cotton", "everyday"],
+      "short_description": "A sturdy natural-canvas tote with long handles and an inside pocket.",
+      "description": "<p>Big enough for the weekly shop, light enough to fold into a jacket pocket. Heavy 12 oz canvas with reinforced handles.</p>",
+      "price": "16.00",
+      "sale_price": "12.00",
+      "sale_from": "2025-01-01",
+      "sale_to": "2035-12-31",
+      "stock": 120,
+      "weight_kg": 0.25,
+      "dimensions_cm": [40, 38, 2],
+      "photos": [
+        { "id": "main", "prompt": "A natural off-white cotton canvas tote bag with long handles, standing upright, front view" }
+      ],
+      "notes": ["Scheduled sale with start and end dates"]
+    },
+    {
+      "handle": "stoneware-mug",
+      "sku": "ESD-MUG",
+      "name": "Stoneware Coffee Mug",
+      "type": "variable",
+      "vendor": "Hollow Oak Home",
+      "category": "Home & Kitchen > Drinkware",
+      "tags": ["ceramic", "coffee", "gift"],
+      "featured": true,
+      "small": true,
+      "short_description": "A hand-glazed 350 ml stoneware mug with a comfortable C-shaped handle.",
+      "description": "<p>Each mug is glazed by hand, so no two are exactly alike. Dishwasher and microwave safe.</p><ul><li>Capacity: 350 ml (12 oz)</li><li>Lead-free glaze</li></ul>",
+      "price": "16.00",
+      "weight_kg": 0.38,
+      "dimensions_cm": [12, 9, 10],
+      "options": [{ "name": "Color", "values": ["Speckled White", "Midnight Blue", "Terracotta", "Sage"] }],
+      "image_option": "Color",
+      "photos": [
+        { "id": "speckled-white", "prompt": "A speckled white stoneware coffee mug with a C-shaped handle, three-quarter view, handle on the right" },
+        { "id": "midnight-blue", "edit_of": "speckled-white", "change": "Change the glaze to a glossy deep midnight blue." },
+        { "id": "terracotta", "edit_of": "speckled-white", "change": "Change the glaze to a warm terracotta orange." },
+        { "id": "sage", "edit_of": "speckled-white", "change": "Change the glaze to a soft sage green." }
+      ],
+      "notes": ["Ampersand in category name (Home & Kitchen)", "Child of a grouped product (WooCommerce)"]
+    },
+    {
+      "handle": "soy-wax-candle",
+      "sku": "ESD-CANDLE",
+      "name": "Soy Wax Candle",
+      "type": "variable",
+      "vendor": "Hollow Oak Home",
+      "category": "Home & Kitchen > Candles",
+      "tags": ["home fragrance", "gift"],
+      "short_description": "A hand-poured soy wax candle in an amber glass jar, with about 45 hours of burn time.",
+      "description": "<p>Clean-burning soy wax and a cotton wick in a reusable amber jar. Each scent is blended in small batches.</p><ul><li>200 g (7 oz)</li><li>About 45 hours of burn time</li></ul>",
+      "price": "28.00",
+      "weight_kg": 0.45,
+      "dimensions_cm": [9, 9, 10],
+      "options": [{ "name": "Scent", "values": ["Cedarwood", "Fig Leaf", "Sea Salt"] }],
+      "photos": [
+        { "id": "main", "prompt": "A lit soy wax candle in an amber glass jar with a blank kraft paper label, three-quarter view" }
+      ],
+      "notes": ["Option that is not color or size (Scent)", "Tag with a space (home fragrance)"]
+    },
+    {
+      "handle": "linen-cushion-cover",
+      "sku": "ESD-CUSHION",
+      "name": "Linen Cushion Cover",
+      "type": "variable",
+      "vendor": "Hollow Oak Home",
+      "category": "Home & Kitchen > Cushions",
+      "tags": ["linen", "living room"],
+      "short_description": "A stonewashed linen cushion cover with a hidden zip.",
+      "description": "<p>Stonewashed for softness and a relaxed, slightly rumpled look. The zip is hidden along one edge. Cushion insert not included.</p>",
+      "price": "34.00",
+      "weight_kg": 0.3,
+      "dimensions_cm": [30, 25, 3],
+      "options": [
+        { "name": "Color", "values": ["Ivory", "Charcoal", "Clay"] },
+        { "name": "Size", "values": ["45 x 45 cm", "50 x 50 cm"] }
+      ],
+      "image_option": "Color",
+      "variant_rules": [{ "when": { "Size": "50 x 50 cm" }, "price": "38.00" }],
+      "photos": [
+        { "id": "ivory", "prompt": "A square ivory stonewashed linen cushion, front view, softly rumpled texture" },
+        { "id": "charcoal", "edit_of": "ivory", "change": "Change the linen color to charcoal grey." },
+        { "id": "clay", "edit_of": "ivory", "change": "Change the linen color to a warm clay pink." }
+      ],
+      "notes": ["Price depends on size", "Global Size attribute shared with clothing sizes"]
+    },
+    {
+      "handle": "glass-french-press",
+      "sku": "ESD-PRESS",
+      "name": "Glass French Press (1 L)",
+      "type": "simple",
+      "vendor": "Hollow Oak Home",
+      "category": "Home & Kitchen > Coffee & Tea",
+      "tags": ["coffee", "brewing"],
+      "featured": true,
+      "small": true,
+      "short_description": "A 1-litre borosilicate glass French press with a stainless steel frame.",
+      "description": "<p>Full-bodied coffee in four minutes. The double mesh filter keeps grounds out of your cup, and the glass carafe lifts out for easy cleaning.</p><ul><li>1 L (8 cups)</li><li>Heat-resistant borosilicate glass</li><li>Stainless steel frame and filter</li></ul>",
+      "price": "42.00",
+      "stock": 35,
+      "weight_kg": 0.85,
+      "dimensions_cm": [18, 12, 24],
+      "cross_sells": ["house-blend-coffee"],
+      "photos": [
+        { "id": "main", "prompt": "A glass French press coffee maker with a brushed stainless steel frame, half full of coffee, three-quarter view" },
+        { "id": "detail", "prompt": "Top-down close-up of a stainless steel French press lid, plunger knob and mesh filter", "alt": "Lid and filter detail" }
+      ],
+      "notes": ["Simple product with a gallery image", "Cross-sell"]
+    },
+    {
+      "handle": "olive-wood-board",
+      "sku": "ESD-BOARD",
+      "name": "Olive Wood Cutting Board",
+      "type": "simple",
+      "vendor": "Hollow Oak Home",
+      "category": "Home & Kitchen > Kitchen Tools",
+      "tags": ["wood", "kitchen"],
+      "small": true,
+      "short_description": "A solid olive wood board for chopping and serving.",
+      "description": "<p>Cut from a single piece of olive wood, so the grain is different on every board. Hand wash and oil occasionally.</p>",
+      "price": "36.00",
+      "stock": 0,
+      "backorders": "notify",
+      "weight_kg": 0.9,
+      "dimensions_cm": [38, 20, 2],
+      "photos": [
+        { "id": "main", "prompt": "A solid olive wood cutting board with a rich swirling grain and a rounded handle, top-down view at a slight angle" }
+      ],
+      "notes": ["Out of stock with backorders allowed"]
+    },
+    {
+      "handle": "hydrating-face-serum",
+      "sku": "ESD-SERUM",
+      "name": "Hydrating Face Serum",
+      "type": "variable",
+      "vendor": "Brightmoss",
+      "category": "Beauty > Skincare",
+      "tags": ["skincare", "vegan"],
+      "short_description": "A lightweight hyaluronic serum that hydrates without feeling sticky.",
+      "description": "<p>A water-light serum with hyaluronic acid and aloe that sinks in quickly. Use morning and night before moisturiser.</p><ul><li>Fragrance-free</li><li>Vegan and cruelty-free</li></ul>",
+      "price": "32.00",
+      "weight_kg": 0.09,
+      "dimensions_cm": [5, 5, 12],
+      "options": [{ "name": "Volume", "values": ["30 ml", "50 ml"] }],
+      "variant_rules": [{ "when": { "Volume": "50 ml" }, "price": "46.00", "weight_kg": 0.13 }],
+      "photos": [
+        { "id": "main", "prompt": "A frosted glass dropper bottle of face serum with a white dropper cap and a blank white label, front view" }
+      ],
+      "notes": ["Price and weight depend on the variation"]
+    },
+    {
+      "handle": "lip-balm-trio",
+      "sku": "ESD-LIPBALM",
+      "name": "Lip Balm Trio",
+      "type": "simple",
+      "vendor": "Brightmoss",
+      "category": "Beauty > Lip Care",
+      "tags": ["gift", "beauty"],
+      "short_description": "Three nourishing lip balms: unscented, mint and vanilla.",
+      "description": "<p>Beeswax, shea butter and sunflower oil in recyclable paper tubes. A good stocking filler.</p>",
+      "price": "14.00",
+      "stock": 80,
+      "weight_kg": 0.05,
+      "dimensions_cm": [9, 6, 2],
+      "photos": [
+        { "id": "main", "prompt": "Three lip balm tubes with blank kraft paper wrappers, standing upright side by side" }
+      ]
+    },
+    {
+      "handle": "wireless-headphones",
+      "sku": "ESD-HEADPHONES",
+      "name": "Wireless Over-Ear Headphones",
+      "type": "variable",
+      "vendor": "Quillwave Audio",
+      "category": "Electronics > Audio",
+      "tags": ["audio", "wireless", "noise cancelling"],
+      "featured": true,
+      "small": true,
+      "short_description": "Over-ear wireless headphones with active noise cancelling and up to 40 hours of battery life.",
+      "description": "<p>Quiet the commute and keep the detail. Active noise cancelling, memory-foam ear cushions, and up to 40 hours of playback on a single charge.</p><ul><li>Bluetooth 5.3</li><li>40-hour battery, USB-C fast charging</li><li>Folds flat into the travel case</li></ul>",
+      "price": "129.00",
+      "weight_kg": 0.27,
+      "dimensions_cm": [20, 18, 9],
+      "options": [{ "name": "Color", "values": ["Matte Black", "Cloud White", "Navy"] }],
+      "image_option": "Color",
+      "variant_rules": [{ "when": { "Color": "Cloud White" }, "sale_price": "99.00" }],
+      "photos": [
+        { "id": "matte-black", "prompt": "A pair of matte black wireless over-ear headphones with cushioned ear cups, three-quarter view" },
+        { "id": "cloud-white", "edit_of": "matte-black", "change": "Change the headphones color to a soft off-white." },
+        { "id": "navy", "edit_of": "matte-black", "change": "Change the headphones color to deep navy blue." }
+      ],
+      "notes": ["One variation on sale (Cloud White)"]
+    },
+    {
+      "handle": "protective-phone-case",
+      "sku": "ESD-CASE",
+      "name": "Protective Phone Case",
+      "type": "variable",
+      "vendor": "Quillwave Audio",
+      "category": "Electronics > Phone Accessories",
+      "tags": ["phone", "accessories"],
+      "short_description": "A slim, shock-absorbing case with raised edges to protect the screen and camera.",
+      "description": "<p>Slim enough for a pocket, tough enough for a 2-metre drop. Raised edges protect the screen and camera, and the grippy finish resists fingerprints.</p>",
+      "price": "24.00",
+      "weight_kg": 0.04,
+      "dimensions_cm": [17, 9, 2],
+      "options": [
+        { "name": "Phone Size", "values": ["6.1 inch", "6.7 inch"] },
+        { "name": "Color", "values": ["Black", "Sky Blue", "Lilac"] },
+        { "name": "Material", "values": ["Silicone", "Clear Hybrid"] }
+      ],
+      "image_option": "Color",
+      "variant_rules": [{ "when": { "Phone Size": "6.7 inch" }, "price": "26.00" }],
+      "photos": [
+        { "id": "black", "prompt": "An empty slim black silicone phone case seen from the back, with a square camera cut-out in the top corner, standing upright" },
+        { "id": "sky-blue", "edit_of": "black", "change": "Change the phone case color to light sky blue." },
+        { "id": "lilac", "edit_of": "black", "change": "Change the phone case color to soft lilac purple." }
+      ],
+      "notes": ["3 options, Shopify's maximum (Phone Size x Color x Material), 12 variations", "Image chosen by the second option"]
+    },
+    {
+      "handle": "braided-usb-c-cable",
+      "sku": "ESD-CABLE",
+      "name": "Braided USB-C Cable",
+      "type": "variable",
+      "vendor": "Quillwave Audio",
+      "category": "Electronics > Cables",
+      "tags": ["usb-c", "charging"],
+      "short_description": "A durable braided USB-C to USB-C cable rated for 60 W charging.",
+      "description": "<p>A nylon-braided jacket and reinforced connectors survive years of bending. Supports 60 W fast charging and 480 Mbps data transfer.</p>",
+      "price": "12.00",
+      "weight_kg": 0.04,
+      "dimensions_cm": [12, 10, 2],
+      "options": [{ "name": "Length", "values": ["1 m", "2 m"] }],
+      "variant_rules": [{ "when": { "Length": "2 m" }, "price": "15.00", "weight_kg": 0.06 }],
+      "photos": [
+        { "id": "main", "prompt": "A neatly coiled grey braided USB-C cable with aluminium connectors, top-down view" }
+      ]
+    },
+    {
+      "handle": "house-blend-coffee",
+      "sku": "ESD-COFFEE",
+      "name": "House Blend Coffee Beans",
+      "type": "variable",
+      "vendor": "Copper Kettle Roasters",
+      "category": "Food & Drink > Coffee",
+      "tags": ["coffee", "medium roast"],
+      "small": true,
+      "short_description": "A medium-roast blend with notes of milk chocolate, caramel and toasted almond.",
+      "description": "<p>Our everyday blend of Brazilian and Colombian beans, roasted to medium for a smooth, sweet cup. Great as espresso or filter.</p><ul><li>Roast: medium</li><li>Tasting notes: milk chocolate, caramel, almond</li></ul>",
+      "price": "14.00",
+      "weight_kg": 0.27,
+      "dimensions_cm": [20, 12, 7],
+      "options": [
+        { "name": "Bag Size", "values": ["250 g", "1 kg"] },
+        { "name": "Grind", "values": ["Whole Bean", "Espresso", "Filter"] }
+      ],
+      "variant_rules": [{ "when": { "Bag Size": "1 kg" }, "price": "42.00", "weight_kg": 1.05 }],
+      "photos": [
+        { "id": "main", "prompt": "A matte kraft paper coffee bag with a resealable top and a blank label, standing upright, with a few roasted coffee beans in front" }
+      ],
+      "notes": ["2 options that are not color, 6 variations", "Price and weight depend on bag size"]
+    },
+    {
+      "handle": "loose-leaf-tea-sampler",
+      "sku": "ESD-TEA",
+      "name": "Loose Leaf Tea Sampler",
+      "type": "simple",
+      "vendor": "Copper Kettle Roasters",
+      "category": "Food & Drink > Tea",
+      "tags": ["tea", "gift"],
+      "short_description": "Four loose-leaf teas in reusable tins: breakfast, green, chamomile and rooibos.",
+      "description": "<p>A tasting tour in four tins, each holding enough for about 15 cups.</p>",
+      "price": "19.00",
+      "stock": 40,
+      "weight_kg": 0.4,
+      "dimensions_cm": [20, 10, 8],
+      "photos": [
+        { "id": "main", "prompt": "Four small round metal tea tins with blank lids in a row, one tin open showing loose-leaf tea" }
+      ]
+    },
+    {
+      "handle": "seasonal-recipes-ebook",
+      "sku": "ESD-EBOOK",
+      "name": "Seasonal Recipes E-Book (PDF)",
+      "type": "simple",
+      "vendor": "Inkpine Studio",
+      "category": "Digital > E-books",
+      "tags": ["digital", "recipes"],
+      "small": true,
+      "virtual": true,
+      "downloads": [{ "name": "Seasonal Recipes (sample PDF)", "file": "files/seasonal-recipes-sample.pdf" }],
+      "short_description": "A downloadable cookbook with 40 simple recipes for every season.",
+      "description": "<p>Forty recipes organised by season, each with a shopping list and prep time. Delivered as a PDF you can read on any device or print at home.</p>",
+      "price": "9.00",
+      "photos": [
+        { "id": "main", "prompt": "A tablet computer lying flat on a light wooden surface, its screen showing a photo of a colourful fresh salad, top-down view" }
+      ],
+      "notes": ["Virtual and downloadable, with a real downloadable file", "No shipping (Shopify: Requires Shipping = FALSE)"]
+    },
+    {
+      "handle": "gift-wrapping-service",
+      "sku": "ESD-GIFTWRAP",
+      "name": "Gift Wrapping Service",
+      "type": "simple",
+      "vendor": "Larkspur Lane",
+      "category": "Services",
+      "tags": ["service", "gift"],
+      "virtual": true,
+      "tax_status": "none",
+      "short_description": "We wrap your order in recycled paper with a handwritten card.",
+      "description": "<p>Add this to your cart and we will wrap each item in recycled kraft paper with cotton twine and a handwritten note. Leave your message in the order notes.</p>",
+      "price": "5.00",
+      "photos": [
+        { "id": "main", "prompt": "A gift box wrapped in brown kraft paper and tied with white cotton twine, with a small blank tag" }
+      ],
+      "notes": ["Virtual, not downloadable", "Not taxable", "Top-level category only"]
+    },
+    {
+      "handle": "breakfast-table-set",
+      "sku": "ESD-BREAKFAST",
+      "name": "Breakfast Table Set",
+      "type": "grouped",
+      "vendor": "Hollow Oak Home",
+      "category": "Home & Kitchen",
+      "tags": ["gift set", "kitchen"],
+      "small": true,
+      "children": ["glass-french-press", "stoneware-mug", "olive-wood-board"],
+      "short_description": "Everything for a slow breakfast: a French press, a stoneware mug and an olive wood board.",
+      "description": "<p>Pick the pieces you need, or take the full set. Each item can also be bought on its own.</p>",
+      "photos": [
+        { "id": "main", "prompt": "A glass French press, a speckled white stoneware mug and an olive wood cutting board arranged together" }
+      ],
+      "notes": ["Grouped product (WooCommerce only)", "Groups simple and variable products"]
+    },
+    {
+      "handle": "handmade-ceramic-vase",
+      "sku": "ESD-VASE",
+      "name": "Handmade Ceramic Vase",
+      "type": "external",
+      "vendor": "Hollow Oak Home",
+      "category": "Home & Kitchen > Decor",
+      "tags": ["ceramic", "partner"],
+      "external_url": "https://example.com/partner-store/handmade-ceramic-vase",
+      "button_text": "Buy from our partner",
+      "short_description": "A hand-thrown ceramic vase, sold by our partner studio.",
+      "description": "<p>Each vase is thrown on the wheel and finished with a matte glaze. It is sold and shipped by our partner studio, so the button takes you to their store.</p>",
+      "price": "48.00",
+      "photos": [
+        { "id": "main", "prompt": "A tall handmade ceramic vase with a matte sand-coloured glaze, front view" }
+      ],
+      "notes": ["External/affiliate product (WooCommerce only)"]
+    },
+    {
+      "handle": "enamel-pin-set",
+      "sku": "ESD-PINS",
+      "name": "Enamel Pin Set",
+      "type": "simple",
+      "vendor": "Inkpine Studio",
+      "category": "Accessories > Pins",
+      "tags": ["gift", "collectible"],
+      "sold_individually": true,
+      "short_description": "Three hard-enamel pins: a mountain, a wave and a pine tree.",
+      "description": "<p>Gold-plated hard-enamel pins with rubber backs, packed on a recycled card. Limit one set per order.</p>",
+      "price": "12.00",
+      "stock": 200,
+      "weight_kg": 0.03,
+      "dimensions_cm": [10, 8, 1],
+      "photos": [
+        { "id": "main", "prompt": "Three small hard-enamel pins shaped like a mountain, an ocean wave and a pine tree, with gold outlines, top-down view" }
+      ],
+      "notes": ["Sold individually (one per order)"]
+    },
+    {
+      "handle": "cork-yoga-mat",
+      "sku": "ESD-YOGAMAT",
+      "name": "Cork Yoga Mat",
+      "type": "simple",
+      "vendor": "Fennick Outdoor",
+      "category": "Sports > Yoga",
+      "tags": ["yoga", "fitness"],
+      "short_description": "A natural cork yoga mat with a surface that gets grippier as you warm up.",
+      "description": "<p>Cork is naturally antimicrobial and grips better as you warm up. A natural rubber base keeps the mat from sliding.</p><ul><li>183 x 61 cm, 5 mm thick</li><li>Cork top, natural rubber base</li></ul>",
+      "price": "68.00",
+      "stock": 18,
+      "weight_kg": 2.2,
+      "dimensions_cm": [62, 14, 14],
+      "shipping_class": "Bulky",
+      "photos": [
+        { "id": "main", "prompt": "A rolled natural cork yoga mat standing upright, partly unrolled at the bottom" }
+      ],
+      "notes": ["Heavy item with a shipping class (Bulky)"]
+    },
+    {
+      "handle": "limited-edition-art-print",
+      "sku": "ESD-PRINT",
+      "name": "Limited Edition Art Print",
+      "type": "simple",
+      "vendor": "Inkpine Studio",
+      "category": "Art > Prints",
+      "tags": ["art", "limited edition"],
+      "status": "draft",
+      "short_description": "A signed giclee print in an edition of 50.",
+      "description": "<p>An abstract landscape printed on 300 gsm cotton rag paper, signed and numbered by the artist. Releasing soon.</p>",
+      "price": "85.00",
+      "stock": 50,
+      "weight_kg": 0.3,
+      "dimensions_cm": [42, 6, 6],
+      "photos": [
+        { "id": "main", "prompt": "An abstract landscape art print with soft rolling hills in muted earth tones, lying flat, with a thin white border" }
+      ],
+      "notes": ["Draft / unpublished product"]
+    },
+    {
+      "handle": "french-press-replacement-lid",
+      "sku": "ESD-LID",
+      "name": "French Press Replacement Lid",
+      "type": "simple",
+      "vendor": "Hollow Oak Home",
+      "category": "Home & Kitchen > Spare Parts",
+      "tags": ["spare part", "coffee"],
+      "visibility": "hidden",
+      "short_description": "A spare lid, plunger and filter for the 1 L Glass French Press.",
+      "description": "<p>Fits our Glass French Press (1 L). Includes the lid, plunger rod and double mesh filter.</p>",
+      "price": "14.00",
+      "stock": 25,
+      "weight_kg": 0.15,
+      "dimensions_cm": [12, 12, 20],
+      "photos": [
+        { "id": "main", "prompt": "A stainless steel French press lid with its plunger rod and round mesh filter, lying on its side" }
+      ],
+      "notes": ["Hidden from the catalog but still published"]
+    }
+  ]
+}

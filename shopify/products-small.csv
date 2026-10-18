@@ -1,0 +1,42 @@
+Handle,Title,Body (HTML),Vendor,Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Option3 Name,Option3 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Variant Compare At Price,Variant Requires Shipping,Variant Taxable,Image Src,Image Position,Image Alt Text,Gift Card,SEO Title,SEO Description,Variant Image,Variant Weight Unit,Status
+classic-crew-tee,Classic Crew T-Shirt,"<p>The everyday tee, done right. Cut from 180 gsm combed cotton that gets softer with every wash, with a ribbed collar that keeps its shape.</p><ul><li>100% combed cotton, 180 gsm</li><li>Relaxed, unisex fit</li><li>Pre-shrunk</li><li>Machine wash cold</li></ul>",Larkspur Lane,T-shirts,"cotton, basics, unisex",TRUE,Color,Black,Size,XS,,,ESD-TEE-BLACK-XS,180,shopify,43,deny,manual,24.00,,TRUE,TRUE,,,,FALSE,Classic Crew T-Shirt,"A soft, midweight cotton tee with a classic crew neck and a relaxed fit.",,g,active
+classic-crew-tee,,,,,,,,Black,,S,,,ESD-TEE-BLACK-S,180,shopify,54,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Black,,M,,,ESD-TEE-BLACK-M,180,shopify,13,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Black,,L,,,ESD-TEE-BLACK-L,180,shopify,42,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Black,,XL,,,ESD-TEE-BLACK-XL,180,shopify,30,deny,manual,26.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,White,,XS,,,ESD-TEE-WHITE-XS,180,shopify,0,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,White,,S,,,ESD-TEE-WHITE-S,180,shopify,47,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,White,,M,,,ESD-TEE-WHITE-M,180,shopify,43,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,White,,L,,,ESD-TEE-WHITE-L,180,shopify,58,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,White,,XL,,,ESD-TEE-WHITE-XL,180,shopify,27,deny,manual,26.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Navy,,XS,,,ESD-TEE-NAVY-XS,180,shopify,11,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Navy,,S,,,ESD-TEE-NAVY-S,180,shopify,29,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Navy,,M,,,ESD-TEE-NAVY-M,180,shopify,33,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Navy,,L,,,ESD-TEE-NAVY-L,180,shopify,25,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Navy,,XL,,,ESD-TEE-NAVY-XL,180,shopify,29,deny,manual,26.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Heather Grey,,XS,,,ESD-TEE-HEATHER-GREY-XS,180,shopify,35,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Heather Grey,,S,,,ESD-TEE-HEATHER-GREY-S,180,shopify,48,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Heather Grey,,M,,,ESD-TEE-HEATHER-GREY-M,180,shopify,30,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Heather Grey,,L,,,ESD-TEE-HEATHER-GREY-L,180,shopify,57,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Heather Grey,,XL,,,ESD-TEE-HEATHER-GREY-XL,180,shopify,57,deny,manual,26.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Forest Green,,XS,,,ESD-TEE-FOREST-GREEN-XS,180,shopify,6,deny,manual,19.00,24.00,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Forest Green,,S,,,ESD-TEE-FOREST-GREEN-S,180,shopify,38,deny,manual,19.00,24.00,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Forest Green,,M,,,ESD-TEE-FOREST-GREEN-M,180,shopify,28,deny,manual,19.00,24.00,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Forest Green,,L,,,ESD-TEE-FOREST-GREEN-L,180,shopify,55,deny,manual,19.00,24.00,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Forest Green,,XL,,,ESD-TEE-FOREST-GREEN-XL,180,shopify,52,deny,manual,19.00,26.00,TRUE,TRUE,,,,,,,,g,
+stoneware-mug,Stoneware Coffee Mug,"<p>Each mug is glazed by hand, so no two are exactly alike. Dishwasher and microwave safe.</p><ul><li>Capacity: 350 ml (12 oz)</li><li>Lead-free glaze</li></ul>",Hollow Oak Home,Drinkware,"ceramic, coffee, gift",TRUE,Color,Speckled White,,,,,ESD-MUG-SPECKLED-WHITE,380,shopify,8,deny,manual,16.00,,TRUE,TRUE,,,,FALSE,Stoneware Coffee Mug,A hand-glazed 350 ml stoneware mug with a comfortable C-shaped handle.,,g,active
+stoneware-mug,,,,,,,,Midnight Blue,,,,,ESD-MUG-MIDNIGHT-BLUE,380,shopify,34,deny,manual,16.00,,TRUE,TRUE,,,,,,,,g,
+stoneware-mug,,,,,,,,Terracotta,,,,,ESD-MUG-TERRACOTTA,380,shopify,51,deny,manual,16.00,,TRUE,TRUE,,,,,,,,g,
+stoneware-mug,,,,,,,,Sage,,,,,ESD-MUG-SAGE,380,shopify,36,deny,manual,16.00,,TRUE,TRUE,,,,,,,,g,
+glass-french-press,Glass French Press (1 L),"<p>Full-bodied coffee in four minutes. The double mesh filter keeps grounds out of your cup, and the glass carafe lifts out for easy cleaning.</p><ul><li>1 L (8 cups)</li><li>Heat-resistant borosilicate glass</li><li>Stainless steel frame and filter</li></ul>",Hollow Oak Home,Coffee & Tea,"coffee, brewing",TRUE,Title,Default Title,,,,,ESD-PRESS,850,shopify,35,deny,manual,42.00,,TRUE,TRUE,,,,FALSE,Glass French Press (1 L),A 1-litre borosilicate glass French press with a stainless steel frame.,,g,active
+olive-wood-board,Olive Wood Cutting Board,"<p>Cut from a single piece of olive wood, so the grain is different on every board. Hand wash and oil occasionally.</p>",Hollow Oak Home,Kitchen Tools,"wood, kitchen",TRUE,Title,Default Title,,,,,ESD-BOARD,900,shopify,0,continue,manual,36.00,,TRUE,TRUE,,,,FALSE,Olive Wood Cutting Board,A solid olive wood board for chopping and serving.,,g,active
+wireless-headphones,Wireless Over-Ear Headphones,"<p>Quiet the commute and keep the detail. Active noise cancelling, memory-foam ear cushions, and up to 40 hours of playback on a single charge.</p><ul><li>Bluetooth 5.3</li><li>40-hour battery, USB-C fast charging</li><li>Folds flat into the travel case</li></ul>",Quillwave Audio,Audio,"audio, wireless, noise cancelling",TRUE,Color,Matte Black,,,,,ESD-HEADPHONES-MATTE-BLACK,270,shopify,34,deny,manual,129.00,,TRUE,TRUE,,,,FALSE,Wireless Over-Ear Headphones,Over-ear wireless headphones with active noise cancelling and up to 40 hours of battery life.,,g,active
+wireless-headphones,,,,,,,,Cloud White,,,,,ESD-HEADPHONES-CLOUD-WHITE,270,shopify,54,deny,manual,99.00,129.00,TRUE,TRUE,,,,,,,,g,
+wireless-headphones,,,,,,,,Navy,,,,,ESD-HEADPHONES-NAVY,270,shopify,9,deny,manual,129.00,,TRUE,TRUE,,,,,,,,g,
+house-blend-coffee,House Blend Coffee Beans,"<p>Our everyday blend of Brazilian and Colombian beans, roasted to medium for a smooth, sweet cup. Great as espresso or filter.</p><ul><li>Roast: medium</li><li>Tasting notes: milk chocolate, caramel, almond</li></ul>",Copper Kettle Roasters,Coffee,"coffee, medium roast",TRUE,Bag Size,250 g,Grind,Whole Bean,,,ESD-COFFEE-250-G-WHOLE-BEAN,270,shopify,55,deny,manual,14.00,,TRUE,TRUE,,,,FALSE,House Blend Coffee Beans,"A medium-roast blend with notes of milk chocolate, caramel and toasted almond.",,g,active
+house-blend-coffee,,,,,,,,250 g,,Espresso,,,ESD-COFFEE-250-G-ESPRESSO,270,shopify,33,deny,manual,14.00,,TRUE,TRUE,,,,,,,,g,
+house-blend-coffee,,,,,,,,250 g,,Filter,,,ESD-COFFEE-250-G-FILTER,270,shopify,8,deny,manual,14.00,,TRUE,TRUE,,,,,,,,g,
+house-blend-coffee,,,,,,,,1 kg,,Whole Bean,,,ESD-COFFEE-1-KG-WHOLE-BEAN,1050,shopify,49,deny,manual,42.00,,TRUE,TRUE,,,,,,,,kg,
+house-blend-coffee,,,,,,,,1 kg,,Espresso,,,ESD-COFFEE-1-KG-ESPRESSO,1050,shopify,38,deny,manual,42.00,,TRUE,TRUE,,,,,,,,kg,
+house-blend-coffee,,,,,,,,1 kg,,Filter,,,ESD-COFFEE-1-KG-FILTER,1050,shopify,32,deny,manual,42.00,,TRUE,TRUE,,,,,,,,kg,
+seasonal-recipes-ebook,Seasonal Recipes E-Book (PDF),"<p>Forty recipes organised by season, each with a shopping list and prep time. Delivered as a PDF you can read on any device or print at home.</p>",Inkpine Studio,E-books,"digital, recipes",TRUE,Title,Default Title,,,,,ESD-EBOOK,0,,,deny,manual,9.00,,FALSE,TRUE,,,,FALSE,Seasonal Recipes E-Book (PDF),A downloadable cookbook with 40 simple recipes for every season.,,g,active

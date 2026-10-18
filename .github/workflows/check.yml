@@ -1,0 +1,23 @@
+name: check
+
+on:
+  push:
+  pull_request:
+  schedule:
+    # Monthly: confirm every image and file URL in the CSVs still loads.
+    - cron: "17 6 1 * *"
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate catalog, CSVs and images
+        run: python3 scripts/check.py
+      - name: Check URLs
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: python3 scripts/check.py --online

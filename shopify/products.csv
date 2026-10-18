@@ -1,0 +1,129 @@
+Handle,Title,Body (HTML),Vendor,Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Option3 Name,Option3 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Variant Compare At Price,Variant Requires Shipping,Variant Taxable,Image Src,Image Position,Image Alt Text,Gift Card,SEO Title,SEO Description,Variant Image,Variant Weight Unit,Status
+classic-crew-tee,Classic Crew T-Shirt,"<p>The everyday tee, done right. Cut from 180 gsm combed cotton that gets softer with every wash, with a ribbed collar that keeps its shape.</p><ul><li>100% combed cotton, 180 gsm</li><li>Relaxed, unisex fit</li><li>Pre-shrunk</li><li>Machine wash cold</li></ul>",Larkspur Lane,T-shirts,"cotton, basics, unisex",TRUE,Color,Black,Size,XS,,,ESD-TEE-BLACK-XS,180,shopify,43,deny,manual,24.00,,TRUE,TRUE,,,,FALSE,Classic Crew T-Shirt,"A soft, midweight cotton tee with a classic crew neck and a relaxed fit.",,g,active
+classic-crew-tee,,,,,,,,Black,,S,,,ESD-TEE-BLACK-S,180,shopify,54,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Black,,M,,,ESD-TEE-BLACK-M,180,shopify,13,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Black,,L,,,ESD-TEE-BLACK-L,180,shopify,42,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Black,,XL,,,ESD-TEE-BLACK-XL,180,shopify,30,deny,manual,26.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,White,,XS,,,ESD-TEE-WHITE-XS,180,shopify,0,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,White,,S,,,ESD-TEE-WHITE-S,180,shopify,47,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,White,,M,,,ESD-TEE-WHITE-M,180,shopify,43,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,White,,L,,,ESD-TEE-WHITE-L,180,shopify,58,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,White,,XL,,,ESD-TEE-WHITE-XL,180,shopify,27,deny,manual,26.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Navy,,XS,,,ESD-TEE-NAVY-XS,180,shopify,11,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Navy,,S,,,ESD-TEE-NAVY-S,180,shopify,29,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Navy,,M,,,ESD-TEE-NAVY-M,180,shopify,33,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Navy,,L,,,ESD-TEE-NAVY-L,180,shopify,25,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Navy,,XL,,,ESD-TEE-NAVY-XL,180,shopify,29,deny,manual,26.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Heather Grey,,XS,,,ESD-TEE-HEATHER-GREY-XS,180,shopify,35,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Heather Grey,,S,,,ESD-TEE-HEATHER-GREY-S,180,shopify,48,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Heather Grey,,M,,,ESD-TEE-HEATHER-GREY-M,180,shopify,30,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Heather Grey,,L,,,ESD-TEE-HEATHER-GREY-L,180,shopify,57,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Heather Grey,,XL,,,ESD-TEE-HEATHER-GREY-XL,180,shopify,57,deny,manual,26.00,,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Forest Green,,XS,,,ESD-TEE-FOREST-GREEN-XS,180,shopify,6,deny,manual,19.00,24.00,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Forest Green,,S,,,ESD-TEE-FOREST-GREEN-S,180,shopify,38,deny,manual,19.00,24.00,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Forest Green,,M,,,ESD-TEE-FOREST-GREEN-M,180,shopify,28,deny,manual,19.00,24.00,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Forest Green,,L,,,ESD-TEE-FOREST-GREEN-L,180,shopify,55,deny,manual,19.00,24.00,TRUE,TRUE,,,,,,,,g,
+classic-crew-tee,,,,,,,,Forest Green,,XL,,,ESD-TEE-FOREST-GREEN-XL,180,shopify,52,deny,manual,19.00,26.00,TRUE,TRUE,,,,,,,,g,
+everyday-hoodie,Everyday Pullover Hoodie,"<p>Heavyweight comfort without the bulk. The inside is brushed for warmth, the outside is smooth and resists pilling, and the double-lined hood holds its shape.</p><ul><li>80% cotton, 20% recycled polyester</li><li>Kangaroo pocket</li><li>Ribbed cuffs and hem</li></ul>",Larkspur Lane,Hoodies,"fleece, layering, unisex",TRUE,Color,Charcoal,Size,S,,,ESD-HOOD-CHARCOAL-S,620,shopify,11,deny,manual,58.00,,TRUE,TRUE,,,,FALSE,Everyday Pullover Hoodie,A brushed-fleece pullover hoodie with a lined hood and a roomy kangaroo pocket.,,g,active
+everyday-hoodie,,,,,,,,Charcoal,,M,,,ESD-HOOD-CHARCOAL-M,620,shopify,26,deny,manual,58.00,,TRUE,TRUE,,,,,,,,g,
+everyday-hoodie,,,,,,,,Charcoal,,L,,,ESD-HOOD-CHARCOAL-L,620,shopify,23,deny,manual,58.00,,TRUE,TRUE,,,,,,,,g,
+everyday-hoodie,,,,,,,,Charcoal,,XL,,,ESD-HOOD-CHARCOAL-XL,620,shopify,34,deny,manual,58.00,,TRUE,TRUE,,,,,,,,g,
+everyday-hoodie,,,,,,,,Oatmeal,,S,,,ESD-HOOD-OATMEAL-S,620,shopify,5,deny,manual,58.00,,TRUE,TRUE,,,,,,,,g,
+everyday-hoodie,,,,,,,,Oatmeal,,M,,,ESD-HOOD-OATMEAL-M,620,shopify,20,deny,manual,58.00,,TRUE,TRUE,,,,,,,,g,
+everyday-hoodie,,,,,,,,Oatmeal,,L,,,ESD-HOOD-OATMEAL-L,620,shopify,31,deny,manual,58.00,,TRUE,TRUE,,,,,,,,g,
+everyday-hoodie,,,,,,,,Oatmeal,,XL,,,ESD-HOOD-OATMEAL-XL,620,shopify,38,deny,manual,58.00,,TRUE,TRUE,,,,,,,,g,
+everyday-hoodie,,,,,,,,Dusty Rose,,S,,,ESD-HOOD-DUSTY-ROSE-S,620,shopify,41,deny,manual,58.00,,TRUE,TRUE,,,,,,,,g,
+everyday-hoodie,,,,,,,,Dusty Rose,,M,,,ESD-HOOD-DUSTY-ROSE-M,620,shopify,27,deny,manual,58.00,,TRUE,TRUE,,,,,,,,g,
+everyday-hoodie,,,,,,,,Dusty Rose,,L,,,ESD-HOOD-DUSTY-ROSE-L,620,shopify,10,deny,manual,58.00,,TRUE,TRUE,,,,,,,,g,
+everyday-hoodie,,,,,,,,Dusty Rose,,XL,,,ESD-HOOD-DUSTY-ROSE-XL,620,shopify,27,deny,manual,58.00,,TRUE,TRUE,,,,,,,,g,
+ribbed-beanie,Ribbed Knit Beanie,"<p>Warm, stretchy and easy to wear. Fold the deep cuff once for a snug fit or twice for a shorter look.</p><ul><li>Soft acrylic and wool blend</li><li>One size fits most</li></ul>",Larkspur Lane,Hats,"knitwear, winter",TRUE,Color,Mustard,,,,,ESD-BEANIE-MUSTARD,90,shopify,60,deny,manual,18.00,,TRUE,TRUE,,,,FALSE,Ribbed Knit Beanie,A chunky rib-knit beanie with a fold-over cuff.,,g,active
+ribbed-beanie,,,,,,,,Black,,,,,ESD-BEANIE-BLACK,90,shopify,21,deny,manual,18.00,,TRUE,TRUE,,,,,,,,g,
+ribbed-beanie,,,,,,,,Burgundy,,,,,ESD-BEANIE-BURGUNDY,90,shopify,25,deny,manual,18.00,,TRUE,TRUE,,,,,,,,g,
+ribbed-beanie,,,,,,,,Sage,,,,,ESD-BEANIE-SAGE,90,shopify,52,deny,manual,18.00,,TRUE,TRUE,,,,,,,,g,
+merino-crew-socks,Merino Crew Socks (3-Pack),"<p>Merino wool keeps feet warm in winter and dry in summer. These have a cushioned sole, a reinforced heel and toe, and a cuff that stays up without pinching.</p>",Larkspur Lane,Socks,"merino, multipack",TRUE,Size,S/M,,,,,ESD-SOCKS-S-M,150,shopify,6,deny,manual,22.00,,TRUE,TRUE,,,,FALSE,Merino Crew Socks (3-Pack),Three pairs of cushioned merino-blend crew socks.,,g,active
+merino-crew-socks,,,,,,,,L/XL,,,,,ESD-SOCKS-L-XL,150,shopify,60,deny,manual,22.00,,TRUE,TRUE,,,,,,,,g,
+linen-button-up-shirt,Linen Button-Up Shirt,"<p>Made for warm days. Washed linen feels soft and lived-in from the first wear, and the relaxed cut lets air move.</p><ul><li>100% washed linen</li><li>Coconut-shell buttons</li><li>Curved hem, wear it tucked or untucked</li></ul>",Larkspur Lane,Shirts,"linen, summer",TRUE,Size,S,,,,,ESD-LINEN-S,250,shopify,28,deny,manual,64.00,,TRUE,TRUE,,,,FALSE,Linen Button-Up Shirt,A breathable linen shirt with a relaxed cut and coconut-shell buttons.,,g,active
+linen-button-up-shirt,,,,,,,,M,,,,,ESD-LINEN-M,250,shopify,49,deny,manual,64.00,,TRUE,TRUE,,,,,,,,g,
+linen-button-up-shirt,,,,,,,,L,,,,,ESD-LINEN-L,250,shopify,60,deny,manual,64.00,,TRUE,TRUE,,,,,,,,g,
+linen-button-up-shirt,,,,,,,,XL,,,,,ESD-LINEN-XL,250,shopify,60,deny,manual,64.00,,TRUE,TRUE,,,,,,,,g,
+trail-runner-sneaker,Trail Runner Sneaker,"<p>Built for mixed terrain. The lugged outsole grips dirt and gravel, the foam midsole stays springy on long runs, and the mesh upper dries quickly.</p><ul><li>Breathable engineered mesh</li><li>4 mm lugs</li><li>8 mm heel-to-toe drop</li></ul>",Fennick Outdoor,Sneakers,"running, outdoor",TRUE,Color,Slate Blue,Shoe Size,7,,,ESD-TRAIL-SLATE-BLUE-7,620,shopify,59,deny,manual,89.00,,TRUE,TRUE,,,,FALSE,Trail Runner Sneaker,A lightweight trail runner with a grippy lugged sole and a breathable mesh upper.,,g,active
+trail-runner-sneaker,,,,,,,,Slate Blue,,8,,,ESD-TRAIL-SLATE-BLUE-8,620,shopify,23,deny,manual,89.00,,TRUE,TRUE,,,,,,,,g,
+trail-runner-sneaker,,,,,,,,Slate Blue,,9,,,ESD-TRAIL-SLATE-BLUE-9,620,shopify,19,deny,manual,89.00,,TRUE,TRUE,,,,,,,,g,
+trail-runner-sneaker,,,,,,,,Slate Blue,,10,,,ESD-TRAIL-SLATE-BLUE-10,620,shopify,21,deny,manual,89.00,,TRUE,TRUE,,,,,,,,g,
+trail-runner-sneaker,,,,,,,,Slate Blue,,11,,,ESD-TRAIL-SLATE-BLUE-11,620,shopify,33,deny,manual,89.00,,TRUE,TRUE,,,,,,,,g,
+trail-runner-sneaker,,,,,,,,Slate Blue,,12,,,ESD-TRAIL-SLATE-BLUE-12,620,shopify,22,deny,manual,89.00,,TRUE,TRUE,,,,,,,,g,
+trail-runner-sneaker,,,,,,,,Black,,7,,,ESD-TRAIL-BLACK-7,620,shopify,51,deny,manual,89.00,,TRUE,TRUE,,,,,,,,g,
+trail-runner-sneaker,,,,,,,,Black,,8,,,ESD-TRAIL-BLACK-8,620,shopify,53,deny,manual,89.00,,TRUE,TRUE,,,,,,,,g,
+trail-runner-sneaker,,,,,,,,Black,,9,,,ESD-TRAIL-BLACK-9,620,shopify,22,deny,manual,89.00,,TRUE,TRUE,,,,,,,,g,
+trail-runner-sneaker,,,,,,,,Black,,10,,,ESD-TRAIL-BLACK-10,620,shopify,53,deny,manual,89.00,,TRUE,TRUE,,,,,,,,g,
+trail-runner-sneaker,,,,,,,,Black,,11,,,ESD-TRAIL-BLACK-11,620,shopify,32,deny,manual,89.00,,TRUE,TRUE,,,,,,,,g,
+trail-runner-sneaker,,,,,,,,Black,,12,,,ESD-TRAIL-BLACK-12,620,shopify,47,deny,manual,89.00,,TRUE,TRUE,,,,,,,,g,
+trail-runner-sneaker,,,,,,,,Coral,,7,,,ESD-TRAIL-CORAL-7,620,shopify,31,deny,manual,89.00,,TRUE,TRUE,,,,,,,,g,
+trail-runner-sneaker,,,,,,,,Coral,,8,,,ESD-TRAIL-CORAL-8,620,shopify,34,deny,manual,89.00,,TRUE,TRUE,,,,,,,,g,
+trail-runner-sneaker,,,,,,,,Coral,,9,,,ESD-TRAIL-CORAL-9,620,shopify,41,deny,manual,89.00,,TRUE,TRUE,,,,,,,,g,
+trail-runner-sneaker,,,,,,,,Coral,,10,,,ESD-TRAIL-CORAL-10,620,shopify,35,deny,manual,89.00,,TRUE,TRUE,,,,,,,,g,
+trail-runner-sneaker,,,,,,,,Coral,,11,,,ESD-TRAIL-CORAL-11,620,shopify,40,deny,manual,89.00,,TRUE,TRUE,,,,,,,,g,
+trail-runner-sneaker,,,,,,,,Coral,,12,,,ESD-TRAIL-CORAL-12,620,shopify,56,deny,manual,89.00,,TRUE,TRUE,,,,,,,,g,
+slide-sandal,Cushioned Slide Sandal,"<p>The pool-to-patio sandal. A soft, contoured footbed supports the arch, and the textured sole grips wet surfaces.</p>",Fennick Outdoor,Sandals,"summer, beach",TRUE,Color,Sand,Shoe Size,6-7,,,ESD-SLIDE-SAND-6-7,400,shopify,5,deny,manual,32.00,,TRUE,TRUE,,,,FALSE,Cushioned Slide Sandal,A cushioned one-strap slide with a contoured footbed.,,g,active
+slide-sandal,,,,,,,,Sand,,8-9,,,ESD-SLIDE-SAND-8-9,400,shopify,40,deny,manual,32.00,,TRUE,TRUE,,,,,,,,g,
+slide-sandal,,,,,,,,Sand,,10-11,,,ESD-SLIDE-SAND-10-11,400,shopify,18,deny,manual,32.00,,TRUE,TRUE,,,,,,,,g,
+slide-sandal,,,,,,,,Black,,6-7,,,ESD-SLIDE-BLACK-6-7,400,shopify,10,deny,manual,32.00,,TRUE,TRUE,,,,,,,,g,
+slide-sandal,,,,,,,,Black,,8-9,,,ESD-SLIDE-BLACK-8-9,400,shopify,11,deny,manual,32.00,,TRUE,TRUE,,,,,,,,g,
+slide-sandal,,,,,,,,Black,,10-11,,,ESD-SLIDE-BLACK-10-11,400,shopify,23,deny,manual,32.00,,TRUE,TRUE,,,,,,,,g,
+roll-top-backpack,Roll-Top Backpack,"<p>Roll the top down once for a day of errands, or three times for a downpour. A padded sleeve fits a 15-inch laptop, and side pockets hold a bottle and an umbrella.</p><ul><li>20 L capacity, expands to 24 L</li><li>Water-resistant waxed canvas</li><li>Padded 15-inch laptop sleeve</li></ul>",Tote & Trail,Backpacks,"travel, water-resistant",TRUE,Color,Olive,,,,,ESD-ROLLTOP-OLIVE,950,shopify,26,deny,manual,79.00,,TRUE,TRUE,,,,FALSE,Roll-Top Backpack,A 20-litre roll-top backpack in water-resistant waxed canvas.,,g,active
+roll-top-backpack,,,,,,,,Black,,,,,ESD-ROLLTOP-BLACK,950,shopify,60,deny,manual,79.00,,TRUE,TRUE,,,,,,,,g,
+roll-top-backpack,,,,,,,,Rust,,,,,ESD-ROLLTOP-RUST,950,shopify,45,deny,manual,79.00,,TRUE,TRUE,,,,,,,,g,
+slim-leather-wallet,Slim Leather Wallet,<p>Holds up to eight cards and folded notes without the bulge. Vegetable-tanned leather darkens and softens with use.</p>,Tote & Trail,Wallets,"leather, gift",TRUE,Color,Tan,,,,,ESD-WALLET-TAN,60,shopify,21,deny,manual,45.00,,TRUE,TRUE,,,,FALSE,Slim Leather Wallet,A slim bifold wallet in vegetable-tanned leather.,,g,active
+slim-leather-wallet,,,,,,,,Espresso,,,,,ESD-WALLET-ESPRESSO,60,shopify,30,deny,manual,45.00,,TRUE,TRUE,,,,,,,,g,
+round-sunglasses,Round Polarized Sunglasses,"<p>A timeless round frame in hand-polished acetate, with polarized lenses that cut glare on the water and the road.</p><ul><li>UV400 protection</li><li>Polarized lenses</li><li>Includes a soft case</li></ul>",Larkspur Lane,Sunglasses,"summer, uv400",TRUE,Frame Color,Tortoise,,,,,ESD-SUNNIES-TORTOISE,50,shopify,35,deny,manual,39.00,,TRUE,TRUE,,,,FALSE,Round Polarized Sunglasses,Round acetate sunglasses with polarized UV400 lenses.,,g,active
+round-sunglasses,,,,,,,,Matte Black,,,,,ESD-SUNNIES-MATTE-BLACK,50,shopify,34,deny,manual,39.00,,TRUE,TRUE,,,,,,,,g,
+round-sunglasses,,,,,,,,Clear,,,,,ESD-SUNNIES-CLEAR,50,shopify,8,deny,manual,39.00,,TRUE,TRUE,,,,,,,,g,
+canvas-tote-bag,Canvas Tote Bag,"<p>Big enough for the weekly shop, light enough to fold into a jacket pocket. Heavy 12 oz canvas with reinforced handles.</p>",Tote & Trail,Totes,"cotton, everyday",TRUE,Title,Default Title,,,,,ESD-TOTE,250,shopify,120,deny,manual,12.00,16.00,TRUE,TRUE,,,,FALSE,Canvas Tote Bag,A sturdy natural-canvas tote with long handles and an inside pocket.,,g,active
+stoneware-mug,Stoneware Coffee Mug,"<p>Each mug is glazed by hand, so no two are exactly alike. Dishwasher and microwave safe.</p><ul><li>Capacity: 350 ml (12 oz)</li><li>Lead-free glaze</li></ul>",Hollow Oak Home,Drinkware,"ceramic, coffee, gift",TRUE,Color,Speckled White,,,,,ESD-MUG-SPECKLED-WHITE,380,shopify,8,deny,manual,16.00,,TRUE,TRUE,,,,FALSE,Stoneware Coffee Mug,A hand-glazed 350 ml stoneware mug with a comfortable C-shaped handle.,,g,active
+stoneware-mug,,,,,,,,Midnight Blue,,,,,ESD-MUG-MIDNIGHT-BLUE,380,shopify,34,deny,manual,16.00,,TRUE,TRUE,,,,,,,,g,
+stoneware-mug,,,,,,,,Terracotta,,,,,ESD-MUG-TERRACOTTA,380,shopify,51,deny,manual,16.00,,TRUE,TRUE,,,,,,,,g,
+stoneware-mug,,,,,,,,Sage,,,,,ESD-MUG-SAGE,380,shopify,36,deny,manual,16.00,,TRUE,TRUE,,,,,,,,g,
+soy-wax-candle,Soy Wax Candle,<p>Clean-burning soy wax and a cotton wick in a reusable amber jar. Each scent is blended in small batches.</p><ul><li>200 g (7 oz)</li><li>About 45 hours of burn time</li></ul>,Hollow Oak Home,Candles,"home fragrance, gift",TRUE,Scent,Cedarwood,,,,,ESD-CANDLE-CEDARWOOD,450,shopify,27,deny,manual,28.00,,TRUE,TRUE,,,,FALSE,Soy Wax Candle,"A hand-poured soy wax candle in an amber glass jar, with about 45 hours of burn time.",,g,active
+soy-wax-candle,,,,,,,,Fig Leaf,,,,,ESD-CANDLE-FIG-LEAF,450,shopify,14,deny,manual,28.00,,TRUE,TRUE,,,,,,,,g,
+soy-wax-candle,,,,,,,,Sea Salt,,,,,ESD-CANDLE-SEA-SALT,450,shopify,13,deny,manual,28.00,,TRUE,TRUE,,,,,,,,g,
+linen-cushion-cover,Linen Cushion Cover,"<p>Stonewashed for softness and a relaxed, slightly rumpled look. The zip is hidden along one edge. Cushion insert not included.</p>",Hollow Oak Home,Cushions,"linen, living room",TRUE,Color,Ivory,Size,45 x 45 cm,,,ESD-CUSHION-IVORY-45-X-45-CM,300,shopify,34,deny,manual,34.00,,TRUE,TRUE,,,,FALSE,Linen Cushion Cover,A stonewashed linen cushion cover with a hidden zip.,,g,active
+linen-cushion-cover,,,,,,,,Ivory,,50 x 50 cm,,,ESD-CUSHION-IVORY-50-X-50-CM,300,shopify,14,deny,manual,38.00,,TRUE,TRUE,,,,,,,,g,
+linen-cushion-cover,,,,,,,,Charcoal,,45 x 45 cm,,,ESD-CUSHION-CHARCOAL-45-X-45-CM,300,shopify,54,deny,manual,34.00,,TRUE,TRUE,,,,,,,,g,
+linen-cushion-cover,,,,,,,,Charcoal,,50 x 50 cm,,,ESD-CUSHION-CHARCOAL-50-X-50-CM,300,shopify,37,deny,manual,38.00,,TRUE,TRUE,,,,,,,,g,
+linen-cushion-cover,,,,,,,,Clay,,45 x 45 cm,,,ESD-CUSHION-CLAY-45-X-45-CM,300,shopify,42,deny,manual,34.00,,TRUE,TRUE,,,,,,,,g,
+linen-cushion-cover,,,,,,,,Clay,,50 x 50 cm,,,ESD-CUSHION-CLAY-50-X-50-CM,300,shopify,12,deny,manual,38.00,,TRUE,TRUE,,,,,,,,g,
+glass-french-press,Glass French Press (1 L),"<p>Full-bodied coffee in four minutes. The double mesh filter keeps grounds out of your cup, and the glass carafe lifts out for easy cleaning.</p><ul><li>1 L (8 cups)</li><li>Heat-resistant borosilicate glass</li><li>Stainless steel frame and filter</li></ul>",Hollow Oak Home,Coffee & Tea,"coffee, brewing",TRUE,Title,Default Title,,,,,ESD-PRESS,850,shopify,35,deny,manual,42.00,,TRUE,TRUE,,,,FALSE,Glass French Press (1 L),A 1-litre borosilicate glass French press with a stainless steel frame.,,g,active
+olive-wood-board,Olive Wood Cutting Board,"<p>Cut from a single piece of olive wood, so the grain is different on every board. Hand wash and oil occasionally.</p>",Hollow Oak Home,Kitchen Tools,"wood, kitchen",TRUE,Title,Default Title,,,,,ESD-BOARD,900,shopify,0,continue,manual,36.00,,TRUE,TRUE,,,,FALSE,Olive Wood Cutting Board,A solid olive wood board for chopping and serving.,,g,active
+hydrating-face-serum,Hydrating Face Serum,<p>A water-light serum with hyaluronic acid and aloe that sinks in quickly. Use morning and night before moisturiser.</p><ul><li>Fragrance-free</li><li>Vegan and cruelty-free</li></ul>,Brightmoss,Skincare,"skincare, vegan",TRUE,Volume,30 ml,,,,,ESD-SERUM-30-ML,90,shopify,51,deny,manual,32.00,,TRUE,TRUE,,,,FALSE,Hydrating Face Serum,A lightweight hyaluronic serum that hydrates without feeling sticky.,,g,active
+hydrating-face-serum,,,,,,,,50 ml,,,,,ESD-SERUM-50-ML,130,shopify,23,deny,manual,46.00,,TRUE,TRUE,,,,,,,,g,
+lip-balm-trio,Lip Balm Trio,"<p>Beeswax, shea butter and sunflower oil in recyclable paper tubes. A good stocking filler.</p>",Brightmoss,Lip Care,"gift, beauty",TRUE,Title,Default Title,,,,,ESD-LIPBALM,50,shopify,80,deny,manual,14.00,,TRUE,TRUE,,,,FALSE,Lip Balm Trio,"Three nourishing lip balms: unscented, mint and vanilla.",,g,active
+wireless-headphones,Wireless Over-Ear Headphones,"<p>Quiet the commute and keep the detail. Active noise cancelling, memory-foam ear cushions, and up to 40 hours of playback on a single charge.</p><ul><li>Bluetooth 5.3</li><li>40-hour battery, USB-C fast charging</li><li>Folds flat into the travel case</li></ul>",Quillwave Audio,Audio,"audio, wireless, noise cancelling",TRUE,Color,Matte Black,,,,,ESD-HEADPHONES-MATTE-BLACK,270,shopify,34,deny,manual,129.00,,TRUE,TRUE,,,,FALSE,Wireless Over-Ear Headphones,Over-ear wireless headphones with active noise cancelling and up to 40 hours of battery life.,,g,active
+wireless-headphones,,,,,,,,Cloud White,,,,,ESD-HEADPHONES-CLOUD-WHITE,270,shopify,54,deny,manual,99.00,129.00,TRUE,TRUE,,,,,,,,g,
+wireless-headphones,,,,,,,,Navy,,,,,ESD-HEADPHONES-NAVY,270,shopify,9,deny,manual,129.00,,TRUE,TRUE,,,,,,,,g,
+protective-phone-case,Protective Phone Case,"<p>Slim enough for a pocket, tough enough for a 2-metre drop. Raised edges protect the screen and camera, and the grippy finish resists fingerprints.</p>",Quillwave Audio,Phone Accessories,"phone, accessories",TRUE,Phone Size,6.1 inch,Color,Black,Material,Silicone,ESD-CASE-6-1-INCH-BLACK-SILICONE,40,shopify,23,deny,manual,24.00,,TRUE,TRUE,,,,FALSE,Protective Phone Case,"A slim, shock-absorbing case with raised edges to protect the screen and camera.",,g,active
+protective-phone-case,,,,,,,,6.1 inch,,Black,,Clear Hybrid,ESD-CASE-6-1-INCH-BLACK-CLEAR-HYBRID,40,shopify,37,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+protective-phone-case,,,,,,,,6.1 inch,,Sky Blue,,Silicone,ESD-CASE-6-1-INCH-SKY-BLUE-SILICONE,40,shopify,26,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+protective-phone-case,,,,,,,,6.1 inch,,Sky Blue,,Clear Hybrid,ESD-CASE-6-1-INCH-SKY-BLUE-CLEAR-HYBRID,40,shopify,49,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+protective-phone-case,,,,,,,,6.1 inch,,Lilac,,Silicone,ESD-CASE-6-1-INCH-LILAC-SILICONE,40,shopify,31,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+protective-phone-case,,,,,,,,6.1 inch,,Lilac,,Clear Hybrid,ESD-CASE-6-1-INCH-LILAC-CLEAR-HYBRID,40,shopify,21,deny,manual,24.00,,TRUE,TRUE,,,,,,,,g,
+protective-phone-case,,,,,,,,6.7 inch,,Black,,Silicone,ESD-CASE-6-7-INCH-BLACK-SILICONE,40,shopify,13,deny,manual,26.00,,TRUE,TRUE,,,,,,,,g,
+protective-phone-case,,,,,,,,6.7 inch,,Black,,Clear Hybrid,ESD-CASE-6-7-INCH-BLACK-CLEAR-HYBRID,40,shopify,18,deny,manual,26.00,,TRUE,TRUE,,,,,,,,g,
+protective-phone-case,,,,,,,,6.7 inch,,Sky Blue,,Silicone,ESD-CASE-6-7-INCH-SKY-BLUE-SILICONE,40,shopify,36,deny,manual,26.00,,TRUE,TRUE,,,,,,,,g,
+protective-phone-case,,,,,,,,6.7 inch,,Sky Blue,,Clear Hybrid,ESD-CASE-6-7-INCH-SKY-BLUE-CLEAR-HYBRID,40,shopify,43,deny,manual,26.00,,TRUE,TRUE,,,,,,,,g,
+protective-phone-case,,,,,,,,6.7 inch,,Lilac,,Silicone,ESD-CASE-6-7-INCH-LILAC-SILICONE,40,shopify,26,deny,manual,26.00,,TRUE,TRUE,,,,,,,,g,
+protective-phone-case,,,,,,,,6.7 inch,,Lilac,,Clear Hybrid,ESD-CASE-6-7-INCH-LILAC-CLEAR-HYBRID,40,shopify,5,deny,manual,26.00,,TRUE,TRUE,,,,,,,,g,
+braided-usb-c-cable,Braided USB-C Cable,<p>A nylon-braided jacket and reinforced connectors survive years of bending. Supports 60 W fast charging and 480 Mbps data transfer.</p>,Quillwave Audio,Cables,"usb-c, charging",TRUE,Length,1 m,,,,,ESD-CABLE-1-M,40,shopify,58,deny,manual,12.00,,TRUE,TRUE,,,,FALSE,Braided USB-C Cable,A durable braided USB-C to USB-C cable rated for 60 W charging.,,g,active
+braided-usb-c-cable,,,,,,,,2 m,,,,,ESD-CABLE-2-M,60,shopify,18,deny,manual,15.00,,TRUE,TRUE,,,,,,,,g,
+house-blend-coffee,House Blend Coffee Beans,"<p>Our everyday blend of Brazilian and Colombian beans, roasted to medium for a smooth, sweet cup. Great as espresso or filter.</p><ul><li>Roast: medium</li><li>Tasting notes: milk chocolate, caramel, almond</li></ul>",Copper Kettle Roasters,Coffee,"coffee, medium roast",TRUE,Bag Size,250 g,Grind,Whole Bean,,,ESD-COFFEE-250-G-WHOLE-BEAN,270,shopify,55,deny,manual,14.00,,TRUE,TRUE,,,,FALSE,House Blend Coffee Beans,"A medium-roast blend with notes of milk chocolate, caramel and toasted almond.",,g,active
+house-blend-coffee,,,,,,,,250 g,,Espresso,,,ESD-COFFEE-250-G-ESPRESSO,270,shopify,33,deny,manual,14.00,,TRUE,TRUE,,,,,,,,g,
+house-blend-coffee,,,,,,,,250 g,,Filter,,,ESD-COFFEE-250-G-FILTER,270,shopify,8,deny,manual,14.00,,TRUE,TRUE,,,,,,,,g,
+house-blend-coffee,,,,,,,,1 kg,,Whole Bean,,,ESD-COFFEE-1-KG-WHOLE-BEAN,1050,shopify,49,deny,manual,42.00,,TRUE,TRUE,,,,,,,,kg,
+house-blend-coffee,,,,,,,,1 kg,,Espresso,,,ESD-COFFEE-1-KG-ESPRESSO,1050,shopify,38,deny,manual,42.00,,TRUE,TRUE,,,,,,,,kg,
+house-blend-coffee,,,,,,,,1 kg,,Filter,,,ESD-COFFEE-1-KG-FILTER,1050,shopify,32,deny,manual,42.00,,TRUE,TRUE,,,,,,,,kg,
+loose-leaf-tea-sampler,Loose Leaf Tea Sampler,"<p>A tasting tour in four tins, each holding enough for about 15 cups.</p>",Copper Kettle Roasters,Tea,"tea, gift",TRUE,Title,Default Title,,,,,ESD-TEA,400,shopify,40,deny,manual,19.00,,TRUE,TRUE,,,,FALSE,Loose Leaf Tea Sampler,"Four loose-leaf teas in reusable tins: breakfast, green, chamomile and rooibos.",,g,active
+seasonal-recipes-ebook,Seasonal Recipes E-Book (PDF),"<p>Forty recipes organised by season, each with a shopping list and prep time. Delivered as a PDF you can read on any device or print at home.</p>",Inkpine Studio,E-books,"digital, recipes",TRUE,Title,Default Title,,,,,ESD-EBOOK,0,,,deny,manual,9.00,,FALSE,TRUE,,,,FALSE,Seasonal Recipes E-Book (PDF),A downloadable cookbook with 40 simple recipes for every season.,,g,active
+gift-wrapping-service,Gift Wrapping Service,<p>Add this to your cart and we will wrap each item in recycled kraft paper with cotton twine and a handwritten note. Leave your message in the order notes.</p>,Larkspur Lane,Services,"service, gift",TRUE,Title,Default Title,,,,,ESD-GIFTWRAP,0,,,deny,manual,5.00,,FALSE,FALSE,,,,FALSE,Gift Wrapping Service,We wrap your order in recycled paper with a handwritten card.,,g,active
+enamel-pin-set,Enamel Pin Set,"<p>Gold-plated hard-enamel pins with rubber backs, packed on a recycled card. Limit one set per order.</p>",Inkpine Studio,Pins,"gift, collectible",TRUE,Title,Default Title,,,,,ESD-PINS,30,shopify,200,deny,manual,12.00,,TRUE,TRUE,,,,FALSE,Enamel Pin Set,"Three hard-enamel pins: a mountain, a wave and a pine tree.",,g,active
+cork-yoga-mat,Cork Yoga Mat,"<p>Cork is naturally antimicrobial and grips better as you warm up. A natural rubber base keeps the mat from sliding.</p><ul><li>183 x 61 cm, 5 mm thick</li><li>Cork top, natural rubber base</li></ul>",Fennick Outdoor,Yoga,"yoga, fitness",TRUE,Title,Default Title,,,,,ESD-YOGAMAT,2200,shopify,18,deny,manual,68.00,,TRUE,TRUE,,,,FALSE,Cork Yoga Mat,A natural cork yoga mat with a surface that gets grippier as you warm up.,,kg,active
+limited-edition-art-print,Limited Edition Art Print,"<p>An abstract landscape printed on 300 gsm cotton rag paper, signed and numbered by the artist. Releasing soon.</p>",Inkpine Studio,Prints,"art, limited edition",FALSE,Title,Default Title,,,,,ESD-PRINT,300,shopify,50,deny,manual,85.00,,TRUE,TRUE,,,,FALSE,Limited Edition Art Print,A signed giclee print in an edition of 50.,,g,draft
+french-press-replacement-lid,French Press Replacement Lid,"<p>Fits our Glass French Press (1 L). Includes the lid, plunger rod and double mesh filter.</p>",Hollow Oak Home,Spare Parts,"spare part, coffee",FALSE,Title,Default Title,,,,,ESD-LID,150,shopify,25,deny,manual,14.00,,TRUE,TRUE,,,,FALSE,French Press Replacement Lid,"A spare lid, plunger and filter for the 1 L Glass French Press.",,g,active

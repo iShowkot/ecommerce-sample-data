@@ -1,0 +1,669 @@
+{
+  "name": "ecommerce-sample-data",
+  "description": "Import-ready sample product CSVs for WooCommerce and Shopify, with product photos and matching images for each variant.",
+  "repository": "https://github.com/iShowkot/ecommerce-sample-data",
+  "license": "CC0-1.0",
+  "version": "unreleased",
+  "ref": "main",
+  "asset_base_url": "https://cdn.jsdelivr.net/gh/iShowkot/ecommerce-sample-data@main/",
+  "images": {
+    "expected": 59,
+    "available": 0
+  },
+  "files": [
+    {
+      "path": "woocommerce/products.csv",
+      "platform": "woocommerce",
+      "description": "Full catalog for WooCommerce, metric units (kg, cm).",
+      "products": 31,
+      "variations": 117,
+      "rows": 148,
+      "url": "https://cdn.jsdelivr.net/gh/iShowkot/ecommerce-sample-data@main/woocommerce/products.csv",
+      "raw_url": "https://raw.githubusercontent.com/iShowkot/ecommerce-sample-data/main/woocommerce/products.csv"
+    },
+    {
+      "path": "woocommerce/products-imperial.csv",
+      "platform": "woocommerce",
+      "description": "Full catalog for WooCommerce, imperial units (lbs, in).",
+      "products": 31,
+      "variations": 117,
+      "rows": 148,
+      "url": "https://cdn.jsdelivr.net/gh/iShowkot/ecommerce-sample-data@main/woocommerce/products-imperial.csv",
+      "raw_url": "https://raw.githubusercontent.com/iShowkot/ecommerce-sample-data/main/woocommerce/products-imperial.csv"
+    },
+    {
+      "path": "woocommerce/products-small.csv",
+      "platform": "woocommerce",
+      "description": "8 products for a quick WooCommerce test, metric units.",
+      "products": 8,
+      "variations": 38,
+      "rows": 46,
+      "url": "https://cdn.jsdelivr.net/gh/iShowkot/ecommerce-sample-data@main/woocommerce/products-small.csv",
+      "raw_url": "https://raw.githubusercontent.com/iShowkot/ecommerce-sample-data/main/woocommerce/products-small.csv"
+    },
+    {
+      "path": "shopify/products.csv",
+      "platform": "shopify",
+      "description": "Full catalog for Shopify. Grouped and external products are WooCommerce-only, so they are left out.",
+      "products": 29,
+      "variations": 117,
+      "rows": 128,
+      "url": "https://cdn.jsdelivr.net/gh/iShowkot/ecommerce-sample-data@main/shopify/products.csv",
+      "raw_url": "https://raw.githubusercontent.com/iShowkot/ecommerce-sample-data/main/shopify/products.csv"
+    },
+    {
+      "path": "shopify/products-small.csv",
+      "platform": "shopify",
+      "description": "7 products for a quick Shopify test.",
+      "products": 7,
+      "variations": 38,
+      "rows": 41,
+      "url": "https://cdn.jsdelivr.net/gh/iShowkot/ecommerce-sample-data@main/shopify/products-small.csv",
+      "raw_url": "https://raw.githubusercontent.com/iShowkot/ecommerce-sample-data/main/shopify/products-small.csv"
+    }
+  ],
+  "products": [
+    {
+      "handle": "classic-crew-tee",
+      "name": "Classic Crew T-Shirt",
+      "type": "variable",
+      "sku": "ESD-TEE",
+      "category": "Clothing > T-shirts",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 25,
+      "images": {
+        "expected": 5,
+        "available": 0
+      },
+      "tests": [
+        "2 options (Color x Size), 25 variations",
+        "Image per color",
+        "Higher price for one size (XL)",
+        "Variations on sale (Forest Green)",
+        "Out-of-stock variation (White / XS)",
+        "Default variation (Black / M)",
+        "Non-variation attribute (Fabric)",
+        "Upsell and cross-sell"
+      ]
+    },
+    {
+      "handle": "everyday-hoodie",
+      "name": "Everyday Pullover Hoodie",
+      "type": "variable",
+      "sku": "ESD-HOOD",
+      "category": "Clothing > Hoodies",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 12,
+      "images": {
+        "expected": 3,
+        "available": 0
+      },
+      "tests": [
+        "2 options (Color x Size), 12 variations",
+        "Image per color"
+      ]
+    },
+    {
+      "handle": "ribbed-beanie",
+      "name": "Ribbed Knit Beanie",
+      "type": "variable",
+      "sku": "ESD-BEANIE",
+      "category": "Accessories > Hats",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 4,
+      "images": {
+        "expected": 4,
+        "available": 0
+      },
+      "tests": [
+        "1 option (Color), 4 variations",
+        "Image per color"
+      ]
+    },
+    {
+      "handle": "merino-crew-socks",
+      "name": "Merino Crew Socks (3-Pack)",
+      "type": "variable",
+      "sku": "ESD-SOCKS",
+      "category": "Clothing > Socks",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 2,
+      "images": {
+        "expected": 1,
+        "available": 0
+      },
+      "tests": [
+        "Variations without their own image",
+        "Option value with a slash (S/M)"
+      ]
+    },
+    {
+      "handle": "linen-button-up-shirt",
+      "name": "Linen Button-Up Shirt",
+      "type": "variable",
+      "sku": "ESD-LINEN",
+      "category": "Clothing > Shirts",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 4,
+      "images": {
+        "expected": 2,
+        "available": 0
+      },
+      "tests": [
+        "Size-only variations",
+        "Gallery image (detail shot)"
+      ]
+    },
+    {
+      "handle": "trail-runner-sneaker",
+      "name": "Trail Runner Sneaker",
+      "type": "variable",
+      "sku": "ESD-TRAIL",
+      "category": "Shoes > Sneakers",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 18,
+      "images": {
+        "expected": 3,
+        "available": 0
+      },
+      "tests": [
+        "2 options (Color x Shoe Size), 18 variations",
+        "Numeric option values",
+        "Multi-word attribute name (Shoe Size)"
+      ]
+    },
+    {
+      "handle": "slide-sandal",
+      "name": "Cushioned Slide Sandal",
+      "type": "variable",
+      "sku": "ESD-SLIDE",
+      "category": "Shoes > Sandals",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 6,
+      "images": {
+        "expected": 2,
+        "available": 0
+      },
+      "tests": [
+        "Size ranges as option values (6-7)"
+      ]
+    },
+    {
+      "handle": "roll-top-backpack",
+      "name": "Roll-Top Backpack",
+      "type": "variable",
+      "sku": "ESD-ROLLTOP",
+      "category": "Bags > Backpacks",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 3,
+      "images": {
+        "expected": 3,
+        "available": 0
+      },
+      "tests": [
+        "Ampersand in vendor name (Tote & Trail)"
+      ]
+    },
+    {
+      "handle": "slim-leather-wallet",
+      "name": "Slim Leather Wallet",
+      "type": "variable",
+      "sku": "ESD-WALLET",
+      "category": "Accessories > Wallets",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 2,
+      "images": {
+        "expected": 2,
+        "available": 0
+      },
+      "tests": []
+    },
+    {
+      "handle": "round-sunglasses",
+      "name": "Round Polarized Sunglasses",
+      "type": "variable",
+      "sku": "ESD-SUNNIES",
+      "category": "Accessories > Sunglasses",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 3,
+      "images": {
+        "expected": 3,
+        "available": 0
+      },
+      "tests": [
+        "Images chosen by an option other than Color (Frame Color)"
+      ]
+    },
+    {
+      "handle": "canvas-tote-bag",
+      "name": "Canvas Tote Bag",
+      "type": "simple",
+      "sku": "ESD-TOTE",
+      "category": "Bags > Totes",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 0,
+      "images": {
+        "expected": 1,
+        "available": 0
+      },
+      "tests": [
+        "Scheduled sale with start and end dates"
+      ]
+    },
+    {
+      "handle": "stoneware-mug",
+      "name": "Stoneware Coffee Mug",
+      "type": "variable",
+      "sku": "ESD-MUG",
+      "category": "Home & Kitchen > Drinkware",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 4,
+      "images": {
+        "expected": 4,
+        "available": 0
+      },
+      "tests": [
+        "Ampersand in category name (Home & Kitchen)",
+        "Child of a grouped product (WooCommerce)"
+      ]
+    },
+    {
+      "handle": "soy-wax-candle",
+      "name": "Soy Wax Candle",
+      "type": "variable",
+      "sku": "ESD-CANDLE",
+      "category": "Home & Kitchen > Candles",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 3,
+      "images": {
+        "expected": 1,
+        "available": 0
+      },
+      "tests": [
+        "Option that is not color or size (Scent)",
+        "Tag with a space (home fragrance)"
+      ]
+    },
+    {
+      "handle": "linen-cushion-cover",
+      "name": "Linen Cushion Cover",
+      "type": "variable",
+      "sku": "ESD-CUSHION",
+      "category": "Home & Kitchen > Cushions",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 6,
+      "images": {
+        "expected": 3,
+        "available": 0
+      },
+      "tests": [
+        "Price depends on size",
+        "Global Size attribute shared with clothing sizes"
+      ]
+    },
+    {
+      "handle": "glass-french-press",
+      "name": "Glass French Press (1 L)",
+      "type": "simple",
+      "sku": "ESD-PRESS",
+      "category": "Home & Kitchen > Coffee & Tea",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 0,
+      "images": {
+        "expected": 2,
+        "available": 0
+      },
+      "tests": [
+        "Simple product with a gallery image",
+        "Cross-sell"
+      ]
+    },
+    {
+      "handle": "olive-wood-board",
+      "name": "Olive Wood Cutting Board",
+      "type": "simple",
+      "sku": "ESD-BOARD",
+      "category": "Home & Kitchen > Kitchen Tools",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 0,
+      "images": {
+        "expected": 1,
+        "available": 0
+      },
+      "tests": [
+        "Out of stock with backorders allowed"
+      ]
+    },
+    {
+      "handle": "hydrating-face-serum",
+      "name": "Hydrating Face Serum",
+      "type": "variable",
+      "sku": "ESD-SERUM",
+      "category": "Beauty > Skincare",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 2,
+      "images": {
+        "expected": 1,
+        "available": 0
+      },
+      "tests": [
+        "Price and weight depend on the variation"
+      ]
+    },
+    {
+      "handle": "lip-balm-trio",
+      "name": "Lip Balm Trio",
+      "type": "simple",
+      "sku": "ESD-LIPBALM",
+      "category": "Beauty > Lip Care",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 0,
+      "images": {
+        "expected": 1,
+        "available": 0
+      },
+      "tests": []
+    },
+    {
+      "handle": "wireless-headphones",
+      "name": "Wireless Over-Ear Headphones",
+      "type": "variable",
+      "sku": "ESD-HEADPHONES",
+      "category": "Electronics > Audio",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 3,
+      "images": {
+        "expected": 3,
+        "available": 0
+      },
+      "tests": [
+        "One variation on sale (Cloud White)"
+      ]
+    },
+    {
+      "handle": "protective-phone-case",
+      "name": "Protective Phone Case",
+      "type": "variable",
+      "sku": "ESD-CASE",
+      "category": "Electronics > Phone Accessories",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 12,
+      "images": {
+        "expected": 3,
+        "available": 0
+      },
+      "tests": [
+        "3 options, Shopify's maximum (Phone Size x Color x Material), 12 variations",
+        "Image chosen by the second option"
+      ]
+    },
+    {
+      "handle": "braided-usb-c-cable",
+      "name": "Braided USB-C Cable",
+      "type": "variable",
+      "sku": "ESD-CABLE",
+      "category": "Electronics > Cables",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 2,
+      "images": {
+        "expected": 1,
+        "available": 0
+      },
+      "tests": []
+    },
+    {
+      "handle": "house-blend-coffee",
+      "name": "House Blend Coffee Beans",
+      "type": "variable",
+      "sku": "ESD-COFFEE",
+      "category": "Food & Drink > Coffee",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 6,
+      "images": {
+        "expected": 1,
+        "available": 0
+      },
+      "tests": [
+        "2 options that are not color, 6 variations",
+        "Price and weight depend on bag size"
+      ]
+    },
+    {
+      "handle": "loose-leaf-tea-sampler",
+      "name": "Loose Leaf Tea Sampler",
+      "type": "simple",
+      "sku": "ESD-TEA",
+      "category": "Food & Drink > Tea",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 0,
+      "images": {
+        "expected": 1,
+        "available": 0
+      },
+      "tests": []
+    },
+    {
+      "handle": "seasonal-recipes-ebook",
+      "name": "Seasonal Recipes E-Book (PDF)",
+      "type": "simple",
+      "sku": "ESD-EBOOK",
+      "category": "Digital > E-books",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 0,
+      "images": {
+        "expected": 1,
+        "available": 0
+      },
+      "tests": [
+        "Virtual and downloadable, with a real downloadable file",
+        "No shipping (Shopify: Requires Shipping = FALSE)"
+      ]
+    },
+    {
+      "handle": "gift-wrapping-service",
+      "name": "Gift Wrapping Service",
+      "type": "simple",
+      "sku": "ESD-GIFTWRAP",
+      "category": "Services",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 0,
+      "images": {
+        "expected": 1,
+        "available": 0
+      },
+      "tests": [
+        "Virtual, not downloadable",
+        "Not taxable",
+        "Top-level category only"
+      ]
+    },
+    {
+      "handle": "breakfast-table-set",
+      "name": "Breakfast Table Set",
+      "type": "grouped",
+      "sku": "ESD-BREAKFAST",
+      "category": "Home & Kitchen",
+      "platforms": [
+        "woocommerce"
+      ],
+      "variations": 0,
+      "images": {
+        "expected": 1,
+        "available": 0
+      },
+      "tests": [
+        "Grouped product (WooCommerce only)",
+        "Groups simple and variable products"
+      ]
+    },
+    {
+      "handle": "handmade-ceramic-vase",
+      "name": "Handmade Ceramic Vase",
+      "type": "external",
+      "sku": "ESD-VASE",
+      "category": "Home & Kitchen > Decor",
+      "platforms": [
+        "woocommerce"
+      ],
+      "variations": 0,
+      "images": {
+        "expected": 1,
+        "available": 0
+      },
+      "tests": [
+        "External/affiliate product (WooCommerce only)"
+      ]
+    },
+    {
+      "handle": "enamel-pin-set",
+      "name": "Enamel Pin Set",
+      "type": "simple",
+      "sku": "ESD-PINS",
+      "category": "Accessories > Pins",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 0,
+      "images": {
+        "expected": 1,
+        "available": 0
+      },
+      "tests": [
+        "Sold individually (one per order)"
+      ]
+    },
+    {
+      "handle": "cork-yoga-mat",
+      "name": "Cork Yoga Mat",
+      "type": "simple",
+      "sku": "ESD-YOGAMAT",
+      "category": "Sports > Yoga",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 0,
+      "images": {
+        "expected": 1,
+        "available": 0
+      },
+      "tests": [
+        "Heavy item with a shipping class (Bulky)"
+      ]
+    },
+    {
+      "handle": "limited-edition-art-print",
+      "name": "Limited Edition Art Print",
+      "type": "simple",
+      "sku": "ESD-PRINT",
+      "category": "Art > Prints",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 0,
+      "images": {
+        "expected": 1,
+        "available": 0
+      },
+      "tests": [
+        "Draft / unpublished product"
+      ]
+    },
+    {
+      "handle": "french-press-replacement-lid",
+      "name": "French Press Replacement Lid",
+      "type": "simple",
+      "sku": "ESD-LID",
+      "category": "Home & Kitchen > Spare Parts",
+      "platforms": [
+        "woocommerce",
+        "shopify"
+      ],
+      "variations": 0,
+      "images": {
+        "expected": 1,
+        "available": 0
+      },
+      "tests": [
+        "Hidden from the catalog but still published"
+      ]
+    }
+  ]
+}
