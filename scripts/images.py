@@ -5,6 +5,7 @@
     export GEMINI_API_KEY=...                          # from Google AI Studio
     python3 scripts/images.py                          # generate every missing photo
     python3 scripts/images.py --only classic-crew-tee  # one product (repeatable)
+    python3 scripts/images.py --only classic-crew-tee --limit 1  # just its first photo
     python3 scripts/images.py --only classic-crew-tee --force   # regenerate it
     python3 scripts/images.py --dry-run                # print the prompts, no API calls
     python3 scripts/images.py --list-models            # image models your key can use
@@ -13,6 +14,9 @@
 Each product's first photo is generated from its prompt. A photo with
 "edit_of" is made by sending that first photo back with an edit instruction,
 so every color variant shows the same product from the same angle.
+
+The key is read from GEMINI_API_KEY, or GOOGLE_API_KEY. With neither set the
+script still tries, which works where the environment adds the key itself.
 
 Raw API output is kept in build/raw/ (not committed). Final images are
 1200x1200 JPEGs in images/<handle>/<id>.jpg. Afterwards, run
@@ -66,14 +70,21 @@ compatible_config = False
 
 def api_request(url: str, key: str, body: dict | None = None) -> dict:
     data = json.dumps(body).encode() if body is not None else None
-    request = urllib.request.Request(
-        url,
-        data=data,
-        method="POST" if body is not None else "GET",
-        headers={"Content-Type": "application/json", "x-goog-api-key": key},
-    )
-    with urllib.request.urlopen(request, timeout=180) as response:
-        return json.loads(response.read())
+    headers = {"Content-Type": "application/json"}
+    if key:
+        headers["x-goog-api-key"] = key
+    request = urllib.request.Request(url, data=data, method="POST" if body is not None else "GET", headers=headers)
+    try:
+        with urllib.request.urlopen(request, timeout=180) as response:
+            return json.loads(response.read())
+    except urllib.error.HTTPError as e:
+        if e.code in (401, 403):
+            detail = e.read().decode(errors="replace")[:300]
+            raise SystemExit(
+                f"The Gemini API refused the request (HTTP {e.code}). Check that GEMINI_API_KEY is set "
+                f"and the key is valid.\n{detail}"
+            )
+        raise
 
 
 def image_models(key: str) -> list[str]:
@@ -180,6 +191,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--only", action="append", metavar="HANDLE", help="limit to these product handles")
     parser.add_argument("--force", action="store_true", help="regenerate photos that already exist")
+    parser.add_argument("--limit", type=int, metavar="N", help="stop after generating N photos")
     parser.add_argument("--model", help="Gemini model to use (default: the first available of %s)" % ", ".join(PREFERRED_MODELS))
     parser.add_argument("--dry-run", action="store_true", help="print the prompts without calling the API")
     parser.add_argument("--list-models", action="store_true", help="list image models available to your key")
@@ -198,9 +210,9 @@ def main() -> None:
             sys.exit(f"Unknown handle(s): {', '.join(sorted(unknown))}")
         products = [p for p in products if p["handle"] in args.only]
 
-    key = os.environ.get("GEMINI_API_KEY", "")
+    key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY") or ""
     if not args.dry_run and not key:
-        sys.exit("Set GEMINI_API_KEY first (create a key at https://aistudio.google.com/apikey).")
+        print("No GEMINI_API_KEY or GOOGLE_API_KEY set, trying without one (create a key at https://aistudio.google.com/apikey)")
     if args.list_models:
         print("\n".join(image_models(key)))
         return
@@ -210,6 +222,8 @@ def main() -> None:
     made = 0
     for product in products:
         for photo in product.get("photos", []):
+            if args.limit is not None and made >= args.limit:
+                break
             target = ROOT / build.photo_path(product, photo["id"])
             if target.is_file() and not args.force:
                 continue
@@ -222,6 +236,7 @@ def main() -> None:
             label = target.relative_to(ROOT)
             if args.dry_run:
                 print(f"{label}\n    {'edit of ' + photo['edit_of'] + ': ' if base_path else ''}{prompt}")
+                made += 1
                 continue
             if base_path is not None and not base_path.is_file():
                 print(f"skip {label}: its base photo {base_path.relative_to(ROOT)} is missing")
