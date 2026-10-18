@@ -120,10 +120,15 @@ def generate(model: str, key: str, prompt: str, base_image: bytes | None = None)
         try:
             response = api_request(f"{API}/models/{model}:generateContent", key, body)
         except urllib.error.HTTPError as e:
-            detail = e.read().decode(errors="replace")[:500]
+            detail = e.read().decode(errors="replace")[:2000]
             if e.code == 400 and not compatible_config:
                 compatible_config = True
                 continue
+            if e.code == 429 and "limit: 0" in detail:
+                raise SystemExit(
+                    f"The Gemini API has no quota for {model} on this key's project. Image models have no "
+                    "free tier: turn on billing for the project in Google AI Studio, then run again."
+                )
             if e.code in (429, 500, 502, 503, 504) and attempt < 4:
                 wait = 5 * 3 ** attempt
                 print(f"    HTTP {e.code}, retrying in {wait}s")
