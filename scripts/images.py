@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Generate the catalog's product photos with the Gemini API.
 
     export GEMINI_API_KEY=...                          # from Google AI Studio

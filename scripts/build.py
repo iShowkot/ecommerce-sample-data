@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Build the platform CSV files and manifest.json from catalog/products.json.
 
     python3 scripts/build.py               # URLs point at the main branch
@@ -410,9 +411,10 @@ def render(ref: str) -> dict[str, str]:
     available_photos = sum(len(photos(p)) for p in products)
     manifest = {
         "name": "ecommerce-sample-data",
-        "description": "Import-ready sample product CSVs for WooCommerce and Shopify, with product photos and matching images for each variant.",
+        "description": "Open-source sample product data for WooCommerce and Shopify: import-ready CSVs with product photos and matching images for each variant.",
         "repository": f"https://github.com/{REPO}",
         "license": "CC0-1.0",
+        "code_license": "MIT",
         "version": version_for(ref),
         "ref": ref,
         "asset_base_url": asset_url(ref, ""),

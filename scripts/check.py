@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Validate the catalog, the generated CSVs and the images.
 
     python3 scripts/check.py                   # offline checks (CI runs this on every push)
@@ -31,7 +32,15 @@ SKU = re.compile(r"^[A-Z0-9]+(-[A-Z0-9]+)*$")
 HANDLE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 IMAGE_SIZE = (1200, 1200)
 MAX_IMAGE_BYTES = 300 * 1024
+DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 TYPES = {"simple", "variable", "grouped", "external"}
+PRODUCT_FIELDS = {
+    "handle", "sku", "name", "type", "vendor", "category", "tags", "short_description", "description",
+    "price", "sale_price", "sale_from", "sale_to", "tax_status", "stock", "backorders", "sold_individually",
+    "featured", "status", "visibility", "virtual", "downloads", "weight_kg", "dimensions_cm", "shipping_class",
+    "attributes", "options", "image_option", "defaults", "variant_rules", "photos", "upsells", "cross_sells",
+    "children", "external_url", "button_text", "small", "notes",
+}
 RULE_FIELDS = {"when", "price", "sale_price", "stock", "weight_kg"}
 SHOPIFY_MAX_VARIANTS = 100
 
@@ -63,9 +72,17 @@ def check_catalog(products: list[dict]) -> None:
         if p["type"] not in TYPES:
             error(f"{where}: unknown type {p['type']!r}")
             continue
+        unknown = set(p) - PRODUCT_FIELDS
+        if unknown:
+            error(f"{where}: unknown field(s) {', '.join(sorted(unknown))}")
         for field in ("sku", "name", "vendor", "category", "tags", "short_description", "description", "photos"):
             if not p.get(field):
                 error(f"{where}: missing {field}")
+        for field in ("sale_from", "sale_to"):
+            if field in p and not DATE.match(p[field]):
+                error(f"{where}: {field} must look like 2025-01-31")
+        if p.get("tax_status", "taxable") not in ("taxable", "none"):
+            error(f"{where}: tax_status must be taxable or none")
         if p.get("status", "publish") not in ("publish", "draft"):
             error(f"{where}: status must be publish or draft")
         if p.get("visibility", "visible") not in ("visible", "hidden"):

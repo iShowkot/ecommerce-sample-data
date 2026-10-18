@@ -1,8 +1,9 @@
 {
   "name": "ecommerce-sample-data",
-  "description": "Import-ready sample product CSVs for WooCommerce and Shopify, with product photos and matching images for each variant.",
+  "description": "Open-source sample product data for WooCommerce and Shopify: import-ready CSVs with product photos and matching images for each variant.",
   "repository": "https://github.com/iShowkot/ecommerce-sample-data",
   "license": "CC0-1.0",
+  "code_license": "MIT",
   "version": "unreleased",
   "ref": "main",
   "asset_base_url": "https://cdn.jsdelivr.net/gh/iShowkot/ecommerce-sample-data@main/",

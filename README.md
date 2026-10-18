@@ -1,8 +1,11 @@
 # Ecommerce Sample Data
 
-Import-ready sample product CSVs for **WooCommerce** and **Shopify**, with real-looking product photos and a matching image for every variant. Free to use for anything (CC0).
+Open-source sample product data for **WooCommerce** and **Shopify**: import-ready CSVs with real-looking product photos and a matching image for every variant. Free to use for anything.
 
 [![check](https://github.com/iShowkot/ecommerce-sample-data/actions/workflows/check.yml/badge.svg)](https://github.com/iShowkot/ecommerce-sample-data/actions/workflows/check.yml)
+[![Data: CC0-1.0](https://img.shields.io/badge/data-CC0--1.0-blue)](LICENSE)
+[![Code: MIT](https://img.shields.io/badge/code-MIT-blue)](LICENSE-CODE)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)](CONTRIBUTING.md)
 
 > **Status: work in progress toward v1.0.0.** The CSVs are complete and pass validation. The product photos are being generated now, and until they're added the files import without images. See the [roadmap](ROADMAP.md).
 
@@ -90,8 +93,21 @@ python3 scripts/images.py     # generates the product photos with Gemini (needs 
 
 ## License
 
-[CC0 1.0](LICENSE): public domain, so you can use it for anything without asking or giving credit. All brands and products are fictional. The product photos are AI-generated.
+This is an open-source project with two licenses:
+
+| What | License | In short |
+|---|---|---|
+| Data: the catalog, CSVs, images, sample files and docs | [CC0 1.0](LICENSE) | Public domain. Use it for anything, no credit needed. |
+| Code: `scripts/` and `.github/` | [MIT](LICENSE-CODE) | Use, change and share it. Keep the license notice if you redistribute the code. |
+
+All brands and products are fictional. The product photos are AI-generated.
 
 ## Contributing
 
-Found a file that doesn't import cleanly? [Open an issue](https://github.com/iShowkot/ecommerce-sample-data/issues) with your platform and version, and the error message. Requests for other product types are welcome too.
+Contributions are welcome, and you don't need to write code to help:
+
+- **Found a file that doesn't import cleanly?** [Open an issue](https://github.com/iShowkot/ecommerce-sample-data/issues/new/choose) with your platform, its version and the error message.
+- **Imported a file without problems?** Tell us your platform version, so we can list it as tested.
+- **Want a product type or edge case added?** Open a request.
+
+To change the catalog or the scripts, see [CONTRIBUTING.md](CONTRIBUTING.md). Everyone taking part follows the [code of conduct](CODE_OF_CONDUCT.md).
