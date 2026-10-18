@@ -33,6 +33,8 @@ To generate photos you also need Pillow (`pip install pillow`) and a Gemini API 
 python3 scripts/images.py --only your-product-handle
 ```
 
+You can also use any other image tool: save each image as `build/raw/<handle>/<id>.png` and run `python3 scripts/images.py --from-raw` to resize and compress it. Keep the look consistent with the existing photos: a plain light warm-grey background, soft studio light, and no text or logos.
+
 ## Adding a product
 
 Add an entry to `catalog/products.json`. The existing products are good examples.
@@ -48,7 +50,7 @@ Add an entry to `catalog/products.json`. The existing products are good examples
 | `options` | variable only | Up to 3, each with a `name` and `values`. |
 | `image_option` | no | The option whose values each get their own photo, usually `Color`. |
 | `variant_rules` | no | Change `price`, `sale_price`, `stock` or `weight_kg` for variations that match `when`. |
-| `photos` | yes | The first has a `prompt`. Color variants use `edit_of` and `change` so they show the same product. Each photo `id` must be the option value written in lowercase with hyphens, like `heather-grey`. |
+| `photos` | yes | Each photo has a `prompt` that describes it on its own. Color variants can also have `edit_of` and `change`, for image models that can edit a photo. Set `closeup: true` for detail shots. A photo for an option value uses that value in lowercase with hyphens as its `id`, like `heather-grey`. |
 | `notes` | no | What the product tests. These are listed in `manifest.json`. |
 
 Other optional fields: `stock`, `backorders`, `featured`, `status`, `visibility`, `virtual`, `downloads`, `tax_status`, `sold_individually`, `weight_kg`, `dimensions_cm`, `shipping_class`, `attributes`, `defaults`, `upsells`, `cross_sells`, `children`, `external_url`, `button_text` and `small`. `scripts/check.py` explains anything it doesn't accept.

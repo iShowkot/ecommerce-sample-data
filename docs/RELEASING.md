@@ -2,7 +2,7 @@
 
 A release's CSVs point their image and download URLs at the release's own tag, so a tagged file keeps working even if the images change later.
 
-1. **Images.** Generate and review them, then commit:
+1. **Images.** Generate and review them (with `scripts/images.py`, or another tool plus `--from-raw`), then commit:
 
    ```sh
    python3 scripts/images.py

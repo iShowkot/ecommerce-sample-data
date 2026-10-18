@@ -6,7 +6,7 @@
 - [x] Build script that writes the WooCommerce and Shopify CSVs from the catalog
 - [x] Checks that mirror the importers' rules, run in CI on every push
 - [x] Sample PDF for the downloadable product
-- [ ] Generate the product photos with Gemini (`scripts/images.py`) and review them
+- [x] Generate the 59 product photos (Figma AI) and review them
 - [ ] Release candidate: build with `--ref v1.0.0-rc.1` and tag it
 - [ ] Import test on current WooCommerce and on a Shopify development store, then fix anything that fails
 - [ ] Export one imported product from Shopify, to confirm the current column names

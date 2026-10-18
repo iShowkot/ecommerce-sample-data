@@ -10,10 +10,16 @@
     python3 scripts/images.py --dry-run                # print the prompts, no API calls
     python3 scripts/images.py --list-models            # image models your key can use
     python3 scripts/images.py --sheet                  # rebuild docs/preview.jpg only
+    python3 scripts/images.py --from-raw               # finish images made with another tool
 
 Each product's first photo is generated from its prompt. A photo with
 "edit_of" is made by sending that first photo back with an edit instruction,
-so every color variant shows the same product from the same angle.
+so every color variant shows the same product from the same angle. With
+--no-edit, every photo is generated from its own prompt instead.
+
+To use another image tool, save its output as build/raw/<handle>/<id>.png
+(any image format works) and run --from-raw. Each photo's full prompt is
+its catalog prompt followed by STYLE, or CLOSEUP_STYLE when it's a close-up.
 
 The key is read from GEMINI_API_KEY, or GOOGLE_API_KEY. With neither set the
 script still tries, which works where the environment adds the key itself.
@@ -57,6 +63,12 @@ STYLE = (
     "shadow underneath. Seamless plain light warm-grey background (#F1EFEC). Photorealistic, "
     "sharp focus, true-to-life colors. No text, no letters, no numbers, no logos, no brand "
     "marks, no watermark, no people, no hands."
+)
+CLOSEUP_STYLE = (
+    "Professional e-commerce detail photograph. A close-up that fills the entire square frame "
+    "edge to edge, with no border and no background visible. Soft, even studio lighting. "
+    "Photorealistic, sharp focus, true-to-life colors. No text, no letters, no numbers, no logos, "
+    "no brand marks, no watermark, no people, no hands."
 )
 EDIT = (
     "Edit this product photo. {change} Keep everything else exactly the same: the product's "
@@ -170,6 +182,29 @@ def finish(raw: bytes) -> bytes:
     return out.getvalue()
 
 
+def full_prompt(photo: dict) -> str:
+    return f"{photo['prompt']}. {CLOSEUP_STYLE if photo.get('closeup') else STYLE}"
+
+
+def finish_raw(products: list[dict], force: bool) -> None:
+    made = 0
+    for product in products:
+        for photo in product.get("photos", []):
+            target = ROOT / build.photo_path(product, photo["id"])
+            if target.is_file() and not force:
+                continue
+            raws = sorted((ROOT / "build" / "raw" / product["handle"]).glob(f"{photo['id']}.*"))
+            if not raws:
+                print(f"no raw image for {target.relative_to(ROOT)}")
+                continue
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(finish(raws[0].read_bytes()))
+            made += 1
+    sheet = contact_sheet()
+    print(f"finished {made} photo(s)" + (f", wrote {sheet.relative_to(ROOT)}" if sheet else ""))
+    print("next: python3 scripts/build.py && python3 scripts/check.py")
+
+
 def contact_sheet() -> Path | None:
     files = []
     for product in build.load_catalog():
@@ -201,6 +236,8 @@ def main() -> None:
     parser.add_argument("--dry-run", action="store_true", help="print the prompts without calling the API")
     parser.add_argument("--list-models", action="store_true", help="list image models available to your key")
     parser.add_argument("--sheet", action="store_true", help="only rebuild docs/preview.jpg from existing images")
+    parser.add_argument("--no-edit", action="store_true", help="generate every photo from its own prompt, without edits")
+    parser.add_argument("--from-raw", action="store_true", help="finish images saved in build/raw/ instead of generating")
     args = parser.parse_args()
 
     if args.sheet:
@@ -214,6 +251,10 @@ def main() -> None:
         if unknown:
             sys.exit(f"Unknown handle(s): {', '.join(sorted(unknown))}")
         products = [p for p in products if p["handle"] in args.only]
+
+    if args.from_raw:
+        finish_raw(products, args.force)
+        return
 
     key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY") or ""
     if not args.dry_run and not key:
@@ -232,11 +273,11 @@ def main() -> None:
             target = ROOT / build.photo_path(product, photo["id"])
             if target.is_file() and not args.force:
                 continue
-            if "edit_of" in photo:
+            if "edit_of" in photo and not args.no_edit:
                 prompt = EDIT.format(change=photo["change"])
                 base_path = ROOT / build.photo_path(product, photo["edit_of"])
             else:
-                prompt = f"{photo['prompt']}. {STYLE}"
+                prompt = full_prompt(photo)
                 base_path = None
             label = target.relative_to(ROOT)
             if args.dry_run:

@@ -209,6 +209,13 @@ def check_photos(p: dict, where: str) -> None:
             error(f"{where}: photo id {photo_id!r} must be lowercase words joined by hyphens")
         if photo_id in seen:
             error(f"{where}: duplicate photo id {photo_id}")
+        unknown = set(photo) - {"id", "prompt", "edit_of", "change", "closeup", "alt"}
+        if unknown:
+            error(f"{where}: photo {photo_id} has unknown field(s) {', '.join(sorted(unknown))}")
+        # Every photo needs its own prompt for text-only generators; edit_of and
+        # change are an extra route for generators that can edit an image.
+        if not photo.get("prompt"):
+            error(f"{where}: photo {photo_id} needs a prompt")
         if "edit_of" in photo:
             base = seen.get(photo["edit_of"])
             if base is None:
@@ -217,8 +224,6 @@ def check_photos(p: dict, where: str) -> None:
                 error(f"{where}: photo {photo_id} must edit an original photo, not another edit")
             if not photo.get("change"):
                 error(f"{where}: photo {photo_id} needs a change description")
-        elif not photo.get("prompt"):
-            error(f"{where}: photo {photo_id} needs a prompt")
         seen[photo_id] = photo
 
 

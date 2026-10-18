@@ -7,7 +7,9 @@ Open-source sample product data for **WooCommerce** and **Shopify**: import-read
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue)](LICENSE-CODE)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)](CONTRIBUTING.md)
 
-> **Status: work in progress toward v1.0.0.** The CSVs are complete and pass validation. The product photos are being generated now, and until they're added the files import without images. See the [roadmap](ROADMAP.md).
+> **Status: almost ready for v1.0.0.** The CSVs and all 59 product photos are done and pass validation. Next up: import tests on current WooCommerce and Shopify, then the first release. See the [roadmap](ROADMAP.md).
+
+![All 59 product photos in the catalog](docs/preview.jpg)
 
 ## Download
 
@@ -89,6 +91,8 @@ python3 scripts/images.py     # generates the product photos with Gemini (needs 
 
 `build.py` and `check.py` need only Python 3.9+. `images.py` also needs Pillow. Images are hosted in this repo and served through the jsDelivr CDN.
 
+The v1 photos were generated with Figma AI (Gemini 3.1 Flash Image) from the prompts in the catalog, then resized and compressed with `python3 scripts/images.py --from-raw`.
+
 [docs/format-notes.md](docs/format-notes.md) explains the importer rules the files follow, like why there's no `ID` column and why parents come before variations.
 
 ## License
@@ -100,7 +104,7 @@ This is an open-source project with two licenses:
 | Data: the catalog, CSVs, images, sample files and docs | [CC0 1.0](LICENSE) | Public domain. Use it for anything, no credit needed. |
 | Code: `scripts/` and `.github/` | [MIT](LICENSE-CODE) | Use, change and share it. Keep the license notice if you redistribute the code. |
 
-All brands and products are fictional. The product photos are AI-generated.
+All brands and products are fictional. The product photos are AI-generated and are CC0 like the rest of the data.
 
 ## Contributing
 

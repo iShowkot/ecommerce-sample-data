@@ -9,7 +9,7 @@
   "asset_base_url": "https://cdn.jsdelivr.net/gh/iShowkot/ecommerce-sample-data@main/",
   "images": {
     "expected": 59,
-    "available": 0
+    "available": 59
   },
   "files": [
     {
@@ -48,7 +48,7 @@
       "description": "Full catalog for Shopify. Grouped and external products are WooCommerce-only, so they are left out.",
       "products": 29,
       "variations": 117,
-      "rows": 128,
+      "rows": 129,
       "url": "https://cdn.jsdelivr.net/gh/iShowkot/ecommerce-sample-data@main/shopify/products.csv",
       "raw_url": "https://raw.githubusercontent.com/iShowkot/ecommerce-sample-data/main/shopify/products.csv"
     },
@@ -58,7 +58,7 @@
       "description": "7 products for a quick Shopify test.",
       "products": 7,
       "variations": 38,
-      "rows": 41,
+      "rows": 42,
       "url": "https://cdn.jsdelivr.net/gh/iShowkot/ecommerce-sample-data@main/shopify/products-small.csv",
       "raw_url": "https://raw.githubusercontent.com/iShowkot/ecommerce-sample-data/main/shopify/products-small.csv"
     }
@@ -77,7 +77,7 @@
       "variations": 25,
       "images": {
         "expected": 5,
-        "available": 0
+        "available": 5
       },
       "tests": [
         "2 options (Color x Size), 25 variations",
@@ -103,7 +103,7 @@
       "variations": 12,
       "images": {
         "expected": 3,
-        "available": 0
+        "available": 3
       },
       "tests": [
         "2 options (Color x Size), 12 variations",
@@ -123,7 +123,7 @@
       "variations": 4,
       "images": {
         "expected": 4,
-        "available": 0
+        "available": 4
       },
       "tests": [
         "1 option (Color), 4 variations",
@@ -143,7 +143,7 @@
       "variations": 2,
       "images": {
         "expected": 1,
-        "available": 0
+        "available": 1
       },
       "tests": [
         "Variations without their own image",
@@ -163,7 +163,7 @@
       "variations": 4,
       "images": {
         "expected": 2,
-        "available": 0
+        "available": 2
       },
       "tests": [
         "Size-only variations",
@@ -183,7 +183,7 @@
       "variations": 18,
       "images": {
         "expected": 3,
-        "available": 0
+        "available": 3
       },
       "tests": [
         "2 options (Color x Shoe Size), 18 variations",
@@ -204,7 +204,7 @@
       "variations": 6,
       "images": {
         "expected": 2,
-        "available": 0
+        "available": 2
       },
       "tests": [
         "Size ranges as option values (6-7)"
@@ -223,7 +223,7 @@
       "variations": 3,
       "images": {
         "expected": 3,
-        "available": 0
+        "available": 3
       },
       "tests": [
         "Ampersand in vendor name (Tote & Trail)"
@@ -242,7 +242,7 @@
       "variations": 2,
       "images": {
         "expected": 2,
-        "available": 0
+        "available": 2
       },
       "tests": []
     },
@@ -259,7 +259,7 @@
       "variations": 3,
       "images": {
         "expected": 3,
-        "available": 0
+        "available": 3
       },
       "tests": [
         "Images chosen by an option other than Color (Frame Color)"
@@ -278,7 +278,7 @@
       "variations": 0,
       "images": {
         "expected": 1,
-        "available": 0
+        "available": 1
       },
       "tests": [
         "Scheduled sale with start and end dates"
@@ -297,7 +297,7 @@
       "variations": 4,
       "images": {
         "expected": 4,
-        "available": 0
+        "available": 4
       },
       "tests": [
         "Ampersand in category name (Home & Kitchen)",
@@ -317,7 +317,7 @@
       "variations": 3,
       "images": {
         "expected": 1,
-        "available": 0
+        "available": 1
       },
       "tests": [
         "Option that is not color or size (Scent)",
@@ -337,7 +337,7 @@
       "variations": 6,
       "images": {
         "expected": 3,
-        "available": 0
+        "available": 3
       },
       "tests": [
         "Price depends on size",
@@ -357,7 +357,7 @@
       "variations": 0,
       "images": {
         "expected": 2,
-        "available": 0
+        "available": 2
       },
       "tests": [
         "Simple product with a gallery image",
@@ -377,7 +377,7 @@
       "variations": 0,
       "images": {
         "expected": 1,
-        "available": 0
+        "available": 1
       },
       "tests": [
         "Out of stock with backorders allowed"
@@ -396,7 +396,7 @@
       "variations": 2,
       "images": {
         "expected": 1,
-        "available": 0
+        "available": 1
       },
       "tests": [
         "Price and weight depend on the variation"
@@ -415,7 +415,7 @@
       "variations": 0,
       "images": {
         "expected": 1,
-        "available": 0
+        "available": 1
       },
       "tests": []
     },
@@ -432,7 +432,7 @@
       "variations": 3,
       "images": {
         "expected": 3,
-        "available": 0
+        "available": 3
       },
       "tests": [
         "One variation on sale (Cloud White)"
@@ -451,7 +451,7 @@
       "variations": 12,
       "images": {
         "expected": 3,
-        "available": 0
+        "available": 3
       },
       "tests": [
         "3 options, Shopify's maximum (Phone Size x Color x Material), 12 variations",
@@ -471,7 +471,7 @@
       "variations": 2,
       "images": {
         "expected": 1,
-        "available": 0
+        "available": 1
       },
       "tests": []
     },
@@ -488,7 +488,7 @@
       "variations": 6,
       "images": {
         "expected": 1,
-        "available": 0
+        "available": 1
       },
       "tests": [
         "2 options that are not color, 6 variations",
@@ -508,7 +508,7 @@
       "variations": 0,
       "images": {
         "expected": 1,
-        "available": 0
+        "available": 1
       },
       "tests": []
     },
@@ -525,7 +525,7 @@
       "variations": 0,
       "images": {
         "expected": 1,
-        "available": 0
+        "available": 1
       },
       "tests": [
         "Virtual and downloadable, with a real downloadable file",
@@ -545,7 +545,7 @@
       "variations": 0,
       "images": {
         "expected": 1,
-        "available": 0
+        "available": 1
       },
       "tests": [
         "Virtual, not downloadable",
@@ -565,7 +565,7 @@
       "variations": 0,
       "images": {
         "expected": 1,
-        "available": 0
+        "available": 1
       },
       "tests": [
         "Grouped product (WooCommerce only)",
@@ -584,7 +584,7 @@
       "variations": 0,
       "images": {
         "expected": 1,
-        "available": 0
+        "available": 1
       },
       "tests": [
         "External/affiliate product (WooCommerce only)"
@@ -603,7 +603,7 @@
       "variations": 0,
       "images": {
         "expected": 1,
-        "available": 0
+        "available": 1
       },
       "tests": [
         "Sold individually (one per order)"
@@ -622,7 +622,7 @@
       "variations": 0,
       "images": {
         "expected": 1,
-        "available": 0
+        "available": 1
       },
       "tests": [
         "Heavy item with a shipping class (Bulky)"
@@ -641,7 +641,7 @@
       "variations": 0,
       "images": {
         "expected": 1,
-        "available": 0
+        "available": 1
       },
       "tests": [
         "Draft / unpublished product"
@@ -660,7 +660,7 @@
       "variations": 0,
       "images": {
         "expected": 1,
-        "available": 0
+        "available": 1
       },
       "tests": [
         "Hidden from the catalog but still published"

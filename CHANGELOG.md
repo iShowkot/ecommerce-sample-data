@@ -8,4 +8,5 @@
 - `manifest.json` describing every file and product
 - Build, check and image-generation scripts, and a CI workflow
 - Sample PDF for the downloadable e-book
+- 59 AI-generated product photos with a matching photo for every color, linked from all CSVs, and a preview sheet in the README
 - Open-source setup: code under MIT (data stays CC0), contributing guide, code of conduct, security policy, and issue and pull request templates

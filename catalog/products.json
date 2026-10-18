@@ -31,10 +31,10 @@
       "cross_sells": ["ribbed-beanie"],
       "photos": [
         { "id": "black", "prompt": "A plain black crew-neck cotton t-shirt laid flat, front view, short sleeves slightly spread, natural soft fabric folds" },
-        { "id": "white", "edit_of": "black", "change": "Change the t-shirt color to bright white." },
-        { "id": "navy", "edit_of": "black", "change": "Change the t-shirt color to deep navy blue." },
-        { "id": "heather-grey", "edit_of": "black", "change": "Change the t-shirt color to light heather grey marl." },
-        { "id": "forest-green", "edit_of": "black", "change": "Change the t-shirt color to dark forest green." }
+        { "id": "white", "prompt": "A plain bright white crew-neck cotton t-shirt laid flat, front view, short sleeves slightly spread, natural soft fabric folds", "edit_of": "black", "change": "Change the t-shirt color to bright white." },
+        { "id": "navy", "prompt": "A plain deep navy blue crew-neck cotton t-shirt laid flat, front view, short sleeves slightly spread, natural soft fabric folds", "edit_of": "black", "change": "Change the t-shirt color to deep navy blue." },
+        { "id": "heather-grey", "prompt": "A plain light heather grey marl crew-neck cotton t-shirt laid flat, front view, short sleeves slightly spread, natural soft fabric folds", "edit_of": "black", "change": "Change the t-shirt color to light heather grey marl." },
+        { "id": "forest-green", "prompt": "A plain dark forest green crew-neck cotton t-shirt laid flat, front view, short sleeves slightly spread, natural soft fabric folds", "edit_of": "black", "change": "Change the t-shirt color to dark forest green." }
       ],
       "notes": ["2 options (Color x Size), 25 variations", "Image per color", "Higher price for one size (XL)", "Variations on sale (Forest Green)", "Out-of-stock variation (White / XS)", "Default variation (Black / M)", "Non-variation attribute (Fabric)", "Upsell and cross-sell"]
     },
@@ -58,8 +58,8 @@
       "image_option": "Color",
       "photos": [
         { "id": "charcoal", "prompt": "A charcoal grey pullover hoodie with a kangaroo pocket and drawstrings, laid flat, front view, hood visible above the collar" },
-        { "id": "oatmeal", "edit_of": "charcoal", "change": "Change the hoodie color to light oatmeal beige." },
-        { "id": "dusty-rose", "edit_of": "charcoal", "change": "Change the hoodie color to muted dusty rose pink." }
+        { "id": "oatmeal", "prompt": "A light oatmeal beige pullover hoodie with a kangaroo pocket and drawstrings, laid flat, front view, hood visible above the collar", "edit_of": "charcoal", "change": "Change the hoodie color to light oatmeal beige." },
+        { "id": "dusty-rose", "prompt": "A muted dusty rose pink pullover hoodie with a kangaroo pocket and drawstrings, laid flat, front view, hood visible above the collar", "edit_of": "charcoal", "change": "Change the hoodie color to muted dusty rose pink." }
       ],
       "notes": ["2 options (Color x Size), 12 variations", "Image per color"]
     },
@@ -80,9 +80,9 @@
       "image_option": "Color",
       "photos": [
         { "id": "mustard", "prompt": "A mustard yellow chunky rib-knit beanie with a folded cuff, standing upright, front view" },
-        { "id": "black", "edit_of": "mustard", "change": "Change the beanie color to black." },
-        { "id": "burgundy", "edit_of": "mustard", "change": "Change the beanie color to deep burgundy red." },
-        { "id": "sage", "edit_of": "mustard", "change": "Change the beanie color to soft sage green." }
+        { "id": "black", "prompt": "A black chunky rib-knit beanie with a folded cuff, standing upright, front view", "edit_of": "mustard", "change": "Change the beanie color to black." },
+        { "id": "burgundy", "prompt": "A deep burgundy red chunky rib-knit beanie with a folded cuff, standing upright, front view", "edit_of": "mustard", "change": "Change the beanie color to deep burgundy red." },
+        { "id": "sage", "prompt": "A soft sage green chunky rib-knit beanie with a folded cuff, standing upright, front view", "edit_of": "mustard", "change": "Change the beanie color to soft sage green." }
       ],
       "notes": ["1 option (Color), 4 variations", "Image per color"]
     },
@@ -122,7 +122,7 @@
       "options": [{ "name": "Size", "values": ["S", "M", "L", "XL"] }],
       "photos": [
         { "id": "main", "prompt": "A light blue washed linen button-up shirt with long sleeves, laid flat, front view, buttoned" },
-        { "id": "detail", "prompt": "Close-up detail of the collar and coconut-shell buttons of a light blue washed linen shirt", "alt": "Collar and button detail" }
+        { "id": "detail", "prompt": "Close-up detail of the collar and coconut-shell buttons of a light blue washed linen shirt", "closeup": true, "alt": "Collar and button detail" }
       ],
       "notes": ["Size-only variations", "Gallery image (detail shot)"]
     },
@@ -145,9 +145,9 @@
       ],
       "image_option": "Color",
       "photos": [
-        { "id": "slate-blue", "prompt": "A single slate blue trail running sneaker with a chunky dark grey lugged sole, side profile view, toe pointing left" },
-        { "id": "black", "edit_of": "slate-blue", "change": "Change the color of the shoe's upper and laces to black. Keep the sole dark grey." },
-        { "id": "coral", "edit_of": "slate-blue", "change": "Change the color of the shoe's upper and laces to bright coral orange. Keep the sole dark grey." }
+        { "id": "slate-blue", "prompt": "A single trail running sneaker with a slate blue mesh upper, slate blue laces and a chunky dark grey lugged sole, side profile view, toe pointing left" },
+        { "id": "black", "prompt": "A single trail running sneaker with a black mesh upper, black laces and a chunky dark grey lugged sole, side profile view, toe pointing left", "edit_of": "slate-blue", "change": "Change the color of the shoe's upper and laces to black. Keep the sole dark grey." },
+        { "id": "coral", "prompt": "A single trail running sneaker with a bright coral orange mesh upper, coral orange laces and a chunky dark grey lugged sole, side profile view, toe pointing left", "edit_of": "slate-blue", "change": "Change the color of the shoe's upper and laces to bright coral orange. Keep the sole dark grey." }
       ],
       "notes": ["2 options (Color x Shoe Size), 18 variations", "Numeric option values", "Multi-word attribute name (Shoe Size)"]
     },
@@ -171,7 +171,7 @@
       "image_option": "Color",
       "photos": [
         { "id": "sand", "prompt": "A single sand beige one-strap slide sandal with a thick contoured footbed, three-quarter view" },
-        { "id": "black", "edit_of": "sand", "change": "Change the sandal color to black." }
+        { "id": "black", "prompt": "A single black one-strap slide sandal with a thick contoured footbed, three-quarter view", "edit_of": "sand", "change": "Change the sandal color to black." }
       ],
       "notes": ["Size ranges as option values (6-7)"]
     },
@@ -192,9 +192,9 @@
       "options": [{ "name": "Color", "values": ["Olive", "Black", "Rust"] }],
       "image_option": "Color",
       "photos": [
-        { "id": "olive", "prompt": "An olive green waxed-canvas roll-top backpack with tan leather straps and buckles, standing upright, front view" },
-        { "id": "black", "edit_of": "olive", "change": "Change the backpack fabric color to black. Keep the leather straps tan." },
-        { "id": "rust", "edit_of": "olive", "change": "Change the backpack fabric color to burnt rust orange. Keep the leather straps tan." }
+        { "id": "olive", "prompt": "An olive green waxed-canvas roll-top backpack, standing upright, front view. Two vertical tan leather straps with brass buckles run from the rolled top to the base, over a front flap trimmed in tan leather, with a short tan leather carry handle on top and no zips" },
+        { "id": "black", "prompt": "A black waxed-canvas roll-top backpack, standing upright, front view. Two vertical tan leather straps with brass buckles run from the rolled top to the base, over a front flap trimmed in tan leather, with a short tan leather carry handle on top and no zips", "edit_of": "olive", "change": "Change the backpack fabric color to black. Keep the leather straps tan." },
+        { "id": "rust", "prompt": "A burnt rust orange waxed-canvas roll-top backpack, standing upright, front view. Two vertical tan leather straps with brass buckles run from the rolled top to the base, over a front flap trimmed in tan leather, with a short tan leather carry handle on top and no zips", "edit_of": "olive", "change": "Change the backpack fabric color to burnt rust orange. Keep the leather straps tan." }
       ],
       "notes": ["Ampersand in vendor name (Tote & Trail)"]
     },
@@ -214,8 +214,8 @@
       "options": [{ "name": "Color", "values": ["Tan", "Espresso"] }],
       "image_option": "Color",
       "photos": [
-        { "id": "tan", "prompt": "A slim tan leather bifold wallet, closed, three-quarter view, visible stitching along the edges" },
-        { "id": "espresso", "edit_of": "tan", "change": "Change the leather color to dark espresso brown." }
+        { "id": "tan", "prompt": "A slim tan leather bifold wallet, closed, standing upright on its long bottom edge so it is wider than it is tall, three-quarter view, visible stitching along the edges" },
+        { "id": "espresso", "prompt": "A slim dark espresso brown leather bifold wallet, closed, standing upright on its long bottom edge so it is wider than it is tall, three-quarter view, visible stitching along the edges", "edit_of": "tan", "change": "Change the leather color to dark espresso brown." }
       ]
     },
     {
@@ -235,8 +235,8 @@
       "image_option": "Frame Color",
       "photos": [
         { "id": "tortoise", "prompt": "A pair of round tortoiseshell acetate sunglasses with dark lenses, front view, temples open" },
-        { "id": "matte-black", "edit_of": "tortoise", "change": "Change the frame to matte black. Keep the dark lenses." },
-        { "id": "clear", "edit_of": "tortoise", "change": "Change the frame to transparent clear acetate. Keep the dark lenses." }
+        { "id": "matte-black", "prompt": "A pair of round matte black acetate sunglasses with dark lenses, front view, temples open", "edit_of": "tortoise", "change": "Change the frame to matte black. Keep the dark lenses." },
+        { "id": "clear", "prompt": "A pair of round sunglasses with a transparent clear acetate frame and dark lenses, front view, temples open", "edit_of": "tortoise", "change": "Change the frame to transparent clear acetate. Keep the dark lenses." }
       ],
       "notes": ["Images chosen by an option other than Color (Frame Color)"]
     },
@@ -280,10 +280,10 @@
       "options": [{ "name": "Color", "values": ["Speckled White", "Midnight Blue", "Terracotta", "Sage"] }],
       "image_option": "Color",
       "photos": [
-        { "id": "speckled-white", "prompt": "A speckled white stoneware coffee mug with a C-shaped handle, three-quarter view, handle on the right" },
-        { "id": "midnight-blue", "edit_of": "speckled-white", "change": "Change the glaze to a glossy deep midnight blue." },
-        { "id": "terracotta", "edit_of": "speckled-white", "change": "Change the glaze to a warm terracotta orange." },
-        { "id": "sage", "edit_of": "speckled-white", "change": "Change the glaze to a soft sage green." }
+        { "id": "speckled-white", "prompt": "A straight-sided cylindrical stoneware coffee mug with a speckled white glaze, a bare clay foot ring and a C-shaped handle, three-quarter view, handle on the right" },
+        { "id": "midnight-blue", "prompt": "A straight-sided cylindrical stoneware coffee mug with a glossy deep midnight blue glaze, a bare clay foot ring and a C-shaped handle, three-quarter view, handle on the right", "edit_of": "speckled-white", "change": "Change the glaze to a glossy deep midnight blue." },
+        { "id": "terracotta", "prompt": "A straight-sided cylindrical stoneware coffee mug with a warm terracotta orange glaze, a bare clay foot ring and a C-shaped handle, three-quarter view, handle on the right", "edit_of": "speckled-white", "change": "Change the glaze to a warm terracotta orange." },
+        { "id": "sage", "prompt": "A straight-sided cylindrical stoneware coffee mug with a soft sage green glaze, a bare clay foot ring and a C-shaped handle, three-quarter view, handle on the right", "edit_of": "speckled-white", "change": "Change the glaze to a soft sage green." }
       ],
       "notes": ["Ampersand in category name (Home & Kitchen)", "Child of a grouped product (WooCommerce)"]
     },
@@ -326,9 +326,9 @@
       "image_option": "Color",
       "variant_rules": [{ "when": { "Size": "50 x 50 cm" }, "price": "38.00" }],
       "photos": [
-        { "id": "ivory", "prompt": "A square ivory stonewashed linen cushion, front view, softly rumpled texture" },
-        { "id": "charcoal", "edit_of": "ivory", "change": "Change the linen color to charcoal grey." },
-        { "id": "clay", "edit_of": "ivory", "change": "Change the linen color to a warm clay pink." }
+        { "id": "ivory", "prompt": "A square ivory stonewashed linen cushion with a narrow flat flange border around the edge, front view, softly rumpled texture" },
+        { "id": "charcoal", "prompt": "A square charcoal grey stonewashed linen cushion with a narrow flat flange border around the edge, front view, softly rumpled texture", "edit_of": "ivory", "change": "Change the linen color to charcoal grey." },
+        { "id": "clay", "prompt": "A square warm clay pink stonewashed linen cushion with a narrow flat flange border around the edge, front view, softly rumpled texture", "edit_of": "ivory", "change": "Change the linen color to a warm clay pink." }
       ],
       "notes": ["Price depends on size", "Global Size attribute shared with clothing sizes"]
     },
@@ -351,7 +351,7 @@
       "cross_sells": ["house-blend-coffee"],
       "photos": [
         { "id": "main", "prompt": "A glass French press coffee maker with a brushed stainless steel frame, half full of coffee, three-quarter view" },
-        { "id": "detail", "prompt": "Top-down close-up of a stainless steel French press lid, plunger knob and mesh filter", "alt": "Lid and filter detail" }
+        { "id": "detail", "prompt": "Close-up of the brushed stainless steel lid and steel plunger knob on top of a glass French press filled with coffee", "closeup": true, "alt": "Lid and filter detail" }
       ],
       "notes": ["Simple product with a gallery image", "Cross-sell"]
     },
@@ -433,9 +433,9 @@
       "image_option": "Color",
       "variant_rules": [{ "when": { "Color": "Cloud White" }, "sale_price": "99.00" }],
       "photos": [
-        { "id": "matte-black", "prompt": "A pair of matte black wireless over-ear headphones with cushioned ear cups, three-quarter view" },
-        { "id": "cloud-white", "edit_of": "matte-black", "change": "Change the headphones color to a soft off-white." },
-        { "id": "navy", "edit_of": "matte-black", "change": "Change the headphones color to deep navy blue." }
+        { "id": "matte-black", "prompt": "A pair of matte black wireless over-ear headphones, three-quarter view, standing on their ear cups. A wide padded headband joins large oval ear cups through slim metal sliders, with thick leather ear cushions and small buttons on the right cup" },
+        { "id": "cloud-white", "prompt": "A pair of soft off-white wireless over-ear headphones, three-quarter view, standing on their ear cups. A wide padded headband joins large oval ear cups through slim metal sliders, with thick leather ear cushions and small buttons on the right cup", "edit_of": "matte-black", "change": "Change the headphones color to a soft off-white." },
+        { "id": "navy", "prompt": "A pair of deep navy blue wireless over-ear headphones, three-quarter view, standing on their ear cups. A wide padded headband joins large oval ear cups through slim metal sliders, with thick leather ear cushions and small buttons on the right cup", "edit_of": "matte-black", "change": "Change the headphones color to deep navy blue." }
       ],
       "notes": ["One variation on sale (Cloud White)"]
     },
@@ -461,8 +461,8 @@
       "variant_rules": [{ "when": { "Phone Size": "6.7 inch" }, "price": "26.00" }],
       "photos": [
         { "id": "black", "prompt": "An empty slim black silicone phone case seen from the back, with a square camera cut-out in the top corner, standing upright" },
-        { "id": "sky-blue", "edit_of": "black", "change": "Change the phone case color to light sky blue." },
-        { "id": "lilac", "edit_of": "black", "change": "Change the phone case color to soft lilac purple." }
+        { "id": "sky-blue", "prompt": "An empty slim light sky blue silicone phone case seen from the back, with a square camera cut-out in the top corner, standing upright", "edit_of": "black", "change": "Change the phone case color to light sky blue." },
+        { "id": "lilac", "prompt": "An empty slim soft lilac purple silicone phone case seen from the back, with a square camera cut-out in the top corner, standing upright", "edit_of": "black", "change": "Change the phone case color to soft lilac purple." }
       ],
       "notes": ["3 options, Shopify's maximum (Phone Size x Color x Material), 12 variations", "Image chosen by the second option"]
     },
@@ -542,7 +542,7 @@
       "description": "<p>Forty recipes organised by season, each with a shopping list and prep time. Delivered as a PDF you can read on any device or print at home.</p>",
       "price": "9.00",
       "photos": [
-        { "id": "main", "prompt": "A tablet computer lying flat on a light wooden surface, its screen showing a photo of a colourful fresh salad, top-down view" }
+        { "id": "main", "prompt": "A tablet computer lying flat, its screen showing a photo of a colourful fresh salad, top-down view" }
       ],
       "notes": ["Virtual and downloadable, with a real downloadable file", "No shipping (Shopify: Requires Shipping = FALSE)"]
     },
